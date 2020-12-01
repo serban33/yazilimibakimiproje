@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "engmercedes.admin", "engmercedes.admin\engmercedes.admin.csproj", "{AE0562F9-2B43-473C-950C-32748E9F1FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "engmercedes.UI", "engmercedes.UI\engmercedes.UI.csproj", "{14EB6D04-1453-451E-8CAA-CFB32C8B22AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE0562F9-2B43-473C-950C-32748E9F1FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0562F9-2B43-473C-950C-32748E9F1FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0562F9-2B43-473C-950C-32748E9F1FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0562F9-2B43-473C-950C-32748E9F1FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14EB6D04-1453-451E-8CAA-CFB32C8B22AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14EB6D04-1453-451E-8CAA-CFB32C8B22AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14EB6D04-1453-451E-8CAA-CFB32C8B22AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14EB6D04-1453-451E-8CAA-CFB32C8B22AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F109461D-0773-47AC-9406-6D1DC688220C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ede31a206608499a91c2cbb385f712fd" Name="Diagram1">
+        <EntityTypeShape EntityType="ENGMERCEDESModel.AltKategori" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.Ayarlar" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.Kategori" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.Kullanici" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.Marka" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.Slider" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.SosyalMedya" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.Urun" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.UrunResim" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.vw_AltKatAndKat" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.vw_UrunDetay" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.vw_UrunModel" Width="1.5" PointX="4.75" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="ENGMERCEDESModel.FK_Urun_AltKategori" ManuallyRouted="false" />
+        <AssociationConnector Association="ENGMERCEDESModel.FK_Urun_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="ENGMERCEDESModel.FK_Urun_Marka" ManuallyRouted="false" />
+        <AssociationConnector Association="ENGMERCEDESModel.FK_UrunResim_Urun" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.vw_UIUrunDetay" Width="1.5" PointX="0.75" PointY="11.75" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.AltReklam" Width="1.5" PointX="12.375" PointY="0.75" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.Reklam" Width="1.5" PointX="12.375" PointY="3.75" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.Sirket" Width="1.5" PointX="12.375" PointY="7.75" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.vw_UrunList" Width="1.5" PointX="7.375" PointY="11.75" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.vw_AltAndKat" Width="1.5" PointX="9.375" PointY="11.75" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.vw_UIUrunDetay1" Width="1.5" PointX="11.375" PointY="11.75" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.vw_UrunDetay1" Width="1.5" PointX="13.375" PointY="11.75" />
+        <EntityTypeShape EntityType="ENGMERCEDESModel.vw_UrunModel1" Width="1.5" PointX="14.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

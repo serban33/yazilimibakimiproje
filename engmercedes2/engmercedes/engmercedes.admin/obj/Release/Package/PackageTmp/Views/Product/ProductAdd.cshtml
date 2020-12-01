@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewBag.Title = "ProductAdd";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-lg-12 col-12 layout-spacing">
+    <div class="statbox widget box box-shadow">
+        <div class="widget-header">
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                    <h4>Urun Ekle</h4>
+                </div>
+            </div>
+        </div>
+        <div class="widget-content widget-content-area">
+            <form action="" method="post" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="form-group col-6">
+                        <label for="exampleFormControlInput2">Kategori </label>
+                        @Html.DropDownList("KATEGORIID", (SelectList)ViewBag.Kategoriler, "Kategori Seçiniz", new { @class = "form-control basic", id = "KATEGORI" })
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="exampleFormControlInput2">Marka </label>
+                        @Html.DropDownList("MARKAID", (SelectList)ViewBag.Markalar, "Marka Seçiniz", new { @class = "form-control basic2", id = "MARKA" })
+                    </div>
+                     
+                </div>
+                <div class="row mb-3">
+                    <div class="form-group  col-6">
+
+                        <label for="t-text" class="sr-only">Text</label>
+                        <input id="t-text" name="URUNOEMKODU" type="text" placeholder="Urun OEM Kodu  Giriniz" class="form-control" required="">
+
+                    </div>
+                    <div class="form-group col-6">
+
+                        <label for="t-text" class="sr-only">Text</label>
+                        <input id="t-text" name="URUNKODU" type="text" placeholder="Urun Kodu  Giriniz" class="form-control" required="">
+
+                    </div>
+
+                </div>
+                <div class="row mb-3">
+                    <div class="form-group col-8">
+
+                        <label for="t-text" class="sr-only">Text</label>
+                        <input id="t-text" name="URUNAD" type="text" placeholder="Urun Adı Giriniz" class="form-control" required="">
+
+                    </div>
+                    <div class="form-group col-4">
+
+                        <label for="t-text" class="sr-only">Text</label>
+                        <input id="t-text" name="URUNFIYAT" type="text" placeholder="Urun Fiyati Giriniz" class="form-control" required="">
+
+                    </div>
+                </div>
+                
+                <div class="form-group">
+
+                    <label for="t-text" class="sr-only">Text</label>
+                 
+                    <textarea class="form-control" name="URUNACIKLAMA" placeholder="Urun Acıklama  Giriniz" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+
+                <div class="form-group mb-4 mt-3">
+                    <div class="custom-file-container" data-upload-id="myFirstImage">
+                        <label>Urun Resim (Tek Dosya) <a href="javascript:void(0)" class="custom-file-container__image-clear" title="Resmi Kaldır">x</a></label>
+                        <label class="custom-file-container__custom-file">
+                            <input type="file" name="URUNRESIMDOSYASI" class="custom-file-container__custom-file__custom-file-input" accept="image/*">
+                            <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
+                            <span class="custom-file-container__custom-file__custom-file-control"></span>
+                        </label>
+                        <div class="custom-file-container__image-preview"></div>
+                    </div>
+                </div>
+                <input type="submit" name="time" class="mt-4 mb-4 btn btn-primary">
+            </form>
+        </div>
+    </div>
+
+</div>
+@section scripts{
+    <script src="/Content/assets/js/scrollspyNav.js"></script>
+    <script src="/Content/plugins/file-upload/file-upload-with-preview.min.js"></script>
+    <script src="/Content/plugins/select2/select2.min.js"></script>
+    <script src="/Content/plugins/select2/custom-select2.js"></script>
+    <script>
+        var firstUpload = new FileUploadWithPreview('myFirstImage')
+    </script>
+    @*<script>
+        $(document).ready(function () {
+            $("#KATEGORI").change(function () {
+                $.get("/Product/GetSubCategory",
+                    { id: $("#KATEGORI").val() },
+                    function (data) {
+                        $("#ALTKATEGORI").empty();
+                        $.each(data,
+                            function (index, row) {
+                                $("#ALTKATEGORI")
+
+                                    .append("<option value='" + row.ID + "'>" + row.ALTKATEGORIADI + "</option>");
+
+                            });
+                    });
+            });
+        });
+    </script>*@
+    <script>
+        var ss = $(".basic").select2({
+            tags: true,
+        });
+        var ss2 = $(".basic2").select2({
+            tags: true,
+        });
+    </script>
+}

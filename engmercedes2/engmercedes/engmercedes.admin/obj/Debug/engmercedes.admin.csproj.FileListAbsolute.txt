@@ -1,0 +1,510 @@
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\engmercedes.admin.dll.config
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\engmercedes.admin.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\engmercedes.admin.pdb
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\csc.exe
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\csc.exe.config
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\csc.rsp
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\csi.exe
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\csi.exe.config
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\csi.rsp
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.AppContext.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Console.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.IO.Compression.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Net.Http.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Net.Sockets.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.ValueTuple.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XPath.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\vbc.exe
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\vbc.exe.config
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\vbc.rsp
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\VBCSCompiler.exe
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\Antlr3.Runtime.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\Newtonsoft.Json.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.Helpers.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.Mvc.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.Optimization.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.Razor.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.WebPages.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\WebGrease.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.Helpers.xml
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.Mvc.xml
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.Optimization.xml
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.Razor.xml
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.WebPages.xml
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\Newtonsoft.Json.xml
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\Antlr3.Runtime.pdb
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csprojAssemblyReference.cache
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csproj.CoreCompileInputs.cache
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csproj.CopyComplete
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.pdb
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\EntityFramework.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\EntityFramework.SqlServer.dll
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\EntityFramework.xml
+C:\Users\DECOM\source\repos\engmercedes\engmercedes.admin\bin\EntityFramework.SqlServer.xml
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\engmercedes.admin.dll.config
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\engmercedes.admin.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\engmercedes.admin.pdb
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\csc.exe
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\csc.exe.config
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\csc.rsp
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\csi.exe
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\csi.exe.config
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\csi.rsp
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.AppContext.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Console.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.IO.Compression.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Net.Http.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.ValueTuple.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\vbc.exe
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\vbc.exe.config
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\vbc.rsp
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\VBCSCompiler.exe
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\Antlr3.Runtime.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\EntityFramework.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\EntityFramework.SqlServer.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\Newtonsoft.Json.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.Helpers.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.Mvc.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.Optimization.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.Razor.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.WebPages.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\WebGrease.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\EntityFramework.xml
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\EntityFramework.SqlServer.xml
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.Helpers.xml
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.Mvc.xml
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.Optimization.xml
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.Razor.xml
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.WebPages.xml
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\Newtonsoft.Json.xml
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\Antlr3.Runtime.pdb
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csprojAssemblyReference.cache
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csproj.CoreCompileInputs.cache
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csproj.CopyComplete
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.dll
+C:\Users\Berk Gürbüz\Desktop\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.pdb
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\engmercedes.admin.dll.config
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\engmercedes.admin.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\engmercedes.admin.pdb
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\csc.exe
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\csc.exe.config
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\csc.rsp
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\csi.exe
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\csi.exe.config
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\csi.rsp
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.AppContext.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Console.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.IO.Compression.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Net.Http.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Net.Sockets.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.ValueTuple.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XPath.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\vbc.exe
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\vbc.exe.config
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\vbc.rsp
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\VBCSCompiler.exe
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Antlr3.Runtime.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\EntityFramework.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\EntityFramework.SqlServer.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Newtonsoft.Json.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Helpers.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Mvc.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Optimization.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Razor.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.WebPages.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\WebGrease.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\EntityFramework.xml
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\EntityFramework.SqlServer.xml
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Helpers.xml
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Mvc.xml
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Optimization.xml
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Razor.xml
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.WebPages.xml
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Newtonsoft.Json.xml
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Antlr3.Runtime.pdb
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csprojAssemblyReference.cache
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csproj.CoreCompileInputs.cache
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csproj.CopyComplete
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.dll
+C:\Users\DECOM\Desktop\Yeni klasör\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.pdb
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\engmercedes.admin.dll.config
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\engmercedes.admin.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\engmercedes.admin.pdb
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\csc.exe
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\csc.exe.config
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\csc.rsp
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\csi.exe
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\csi.exe.config
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\csi.rsp
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.AppContext.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Console.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.IO.Compression.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Net.Http.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.ValueTuple.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\vbc.exe
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\vbc.exe.config
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\vbc.rsp
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\VBCSCompiler.exe
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Antlr3.Runtime.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\EntityFramework.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\EntityFramework.SqlServer.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Newtonsoft.Json.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Helpers.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Mvc.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Optimization.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Razor.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.WebPages.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\WebGrease.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\EntityFramework.xml
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\EntityFramework.SqlServer.xml
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Helpers.xml
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Mvc.xml
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Optimization.xml
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.Razor.xml
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.WebPages.xml
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Newtonsoft.Json.xml
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Antlr3.Runtime.pdb
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csprojAssemblyReference.cache
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csproj.CoreCompileInputs.cache
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csproj.CopyComplete
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.pdb
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\PagedList.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\PagedList.Mvc.dll
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\PagedList.xml
+C:\Users\Berk Gürbüz\Desktop\Yeni klasör\engmercedes\engmercedes.admin\bin\PagedList.Mvc.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\engmercedes.admin.dll.config
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\engmercedes.admin.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\engmercedes.admin.pdb
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\csc.exe
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\csc.exe.config
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\csc.rsp
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\csi.exe
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\csi.exe.config
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\csi.rsp
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.AppContext.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Console.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.IO.Compression.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Net.Http.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.ValueTuple.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\vbc.exe
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\vbc.exe.config
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\vbc.rsp
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\VBCSCompiler.exe
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\Antlr3.Runtime.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\EntityFramework.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\EntityFramework.SqlServer.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\Newtonsoft.Json.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\PagedList.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\PagedList.Mvc.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.Helpers.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.Mvc.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.Optimization.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.Razor.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.WebPages.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\WebGrease.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\EntityFramework.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\EntityFramework.SqlServer.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\PagedList.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\PagedList.Mvc.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.Helpers.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.Mvc.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.Optimization.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.Razor.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.WebPages.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\Newtonsoft.Json.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\Antlr3.Runtime.pdb
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csprojAssemblyReference.cache
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csproj.CoreCompileInputs.cache
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csproj.CopyComplete
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.dll
+C:\Users\Berk Gürbüz\Desktop\Decom\eng\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.pdb
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\engmercedes.admin.dll.config
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\engmercedes.admin.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\engmercedes.admin.pdb
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\csc.exe
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\csc.exe.config
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\csc.rsp
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\csi.exe
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\csi.exe.config
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\csi.rsp
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.AppContext.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Console.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.IO.Compression.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Net.Http.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Net.Sockets.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.ValueTuple.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XPath.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\vbc.exe
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\vbc.exe.config
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\vbc.rsp
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\VBCSCompiler.exe
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\Antlr3.Runtime.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\EntityFramework.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\EntityFramework.SqlServer.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\Newtonsoft.Json.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\PagedList.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\PagedList.Mvc.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.Helpers.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.Mvc.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.Optimization.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.Razor.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.WebPages.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\WebGrease.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\EntityFramework.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\EntityFramework.SqlServer.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\PagedList.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\PagedList.Mvc.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.Helpers.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.Mvc.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.Optimization.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.Razor.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.WebPages.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\Newtonsoft.Json.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\Antlr3.Runtime.pdb
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csprojAssemblyReference.cache
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csproj.CoreCompileInputs.cache
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.csproj.CopyComplete
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.dll
+C:\Users\emre_\Desktop\engmercedes2\engmercedes\engmercedes.admin\obj\Debug\engmercedes.admin.pdb

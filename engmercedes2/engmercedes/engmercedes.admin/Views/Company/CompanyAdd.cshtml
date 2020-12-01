@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewBag.Title = "Sirket Bilgisi Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-lg-12 col-12 layout-spacing">
+    <div class="statbox widget box box-shadow">
+        <div class="widget-header">
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                    <h4>Sirket Bilgisi Ekle</h4>
+                </div>
+            </div>
+        </div>
+        <div class="widget-content widget-content-area">
+            <form action="" method="post" enctype="multipart/form-data">
+                <div class="form-group mb-4">
+                    <label> Hakkimizda </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="HAKKIMIZDA" rows="5"></textarea>
+                </div>
+                <div class="form-group mb-4">
+                    <label> Vizyon </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1"  name="VIZYONUMUZ" rows="5"></textarea>
+                </div>
+                <div class="form-group mb-4">
+                    <label> Misyon</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1"  name="MISYONUMUZ" rows="5"></textarea>
+                </div>
+                <div class="row col-12">
+                    <div class="form-group mb-4 mt-3 col-4">
+                        <div class="custom-file-container" data-upload-id="myFirstImage">
+                            <label> Resim1 (Tek Dosya) <a href="javascript:void(0)" class="custom-file-container__image-clear" title="Resmi Kaldır">x</a></label>
+                            <label class="custom-file-container__custom-file">
+                                <input type="file" name="RESIMDOSYASI1" class="custom-file-container__custom-file__custom-file-input" accept="image/*">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="10485760"/>
+                                <span class="custom-file-container__custom-file__custom-file-control"></span>
+                            </label>
+                            <div class="custom-file-container__image-preview"></div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-4 mt-3 col-4">
+                        <div class="custom-file-container" data-upload-id="myFirstImage2">
+                            <label> Resim2 (Tek Dosya) <a href="javascript:void(0)" class="custom-file-container__image-clear" title="Resmi Kaldır">x</a></label>
+                            <label class="custom-file-container__custom-file">
+                                <input type="file" name="RESIMDOSYASI2" class="custom-file-container__custom-file__custom-file-input" accept="image/*">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="10485760"/>
+                                <span class="custom-file-container__custom-file__custom-file-control"></span>
+                            </label>
+                            <div class="custom-file-container__image-preview"></div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-4 mt-3 col-4">
+                        <div class="custom-file-container" data-upload-id="myFirstImage3">
+                            <label> Resim3 (Tek Dosya) <a href="javascript:void(0)" class="custom-file-container__image-clear" title="Resmi Kaldır">x</a></label>
+                            <label class="custom-file-container__custom-file">
+                                <input type="file" name="RESIMDOSYASI3" class="custom-file-container__custom-file__custom-file-input" accept="image/*">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="10485760"/>
+                                <span class="custom-file-container__custom-file__custom-file-control"></span>
+                            </label>
+                            <div class="custom-file-container__image-preview"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <input type="submit" name="time" class="mt-4 mb-4 btn btn-primary">
+            </form>
+        </div>
+    </div>
+
+</div>
+
+@section scripts{
+    <script src="/Content/assets/js/scrollspyNav.js"></script>
+    <script src="/Content/plugins/file-upload/file-upload-with-preview.min.js"></script>
+    <script>
+        var firstUpload = new FileUploadWithPreview('myFirstImage')
+        var firstUpload = new FileUploadWithPreview('myFirstImage2')
+        var firstUpload = new FileUploadWithPreview('myFirstImage3')
+    </script>
+    <script>
+        function Back() {
+            setTimeout(function() {
+                    window.location.assign("/reklam/reklam-liste");
+                    //3 saniye sonra yönlenecek
+                },
+                200);
+        }
+    </script>
+
+}

@@ -1,0 +1,113 @@
+﻿@model engmercedes.admin.Models.UrunModel
+@{
+    ViewBag.Title = "ProductUpdate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-lg-12 col-12 layout-spacing">
+    <div class="statbox widget box box-shadow">
+        <div class="widget-header">
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                    <h4>Urun Detay</h4>
+                </div>
+            </div>
+        </div>
+        <div class="statbox widget box box-shadow">
+
+            <div class="widget-content widget-content-area">
+                <form action="" method="post"  enctype="multipart/form-data">
+                    <div class="row">
+
+                        <div class="form-group col-6">
+                            <label for="exampleFormControlInput2">Kategori </label>
+                            @Html.DropDownList("KATEGORIID", (SelectList)ViewBag.Kategoriler, "Kategori Seçiniz", new { @class = "form-control basic", id = "KATEGORI" })
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="exampleFormControlInput2">Marka </label>
+                            @Html.DropDownList("MARKAID", (SelectList)ViewBag.Markalar, "Marka Seçiniz", new { @class = "form-control basic2", id = "MARKA" })
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-row mb-4 col-5">
+                            <div class="col">
+                                <label for="exampleFormControlInput2">Urun Kodu </label>
+                                <input type="text" class="form-control" name="URUNKODU" placeholder="@Model.URUNKODU">
+                            </div>
+                        </div>
+                        <div class="form-row mb-4 col-5">
+                            <div class="col">
+                                <label for="exampleFormControlInput2">OEM Kodu </label>
+                                <input type="text" class="form-control" name="URUNOEMKODU" placeholder="@Model.URUNOEMKODU" >
+                            </div>
+                        </div>
+                        <div class="form-row mb-4 col-2">
+                            <div class="col">
+                                <label for="exampleFormControlInput2">Urun Fiyat </label>
+                                <input type="text" class="form-control" name="URUNFIYAT" placeholder="@Model.URUNFIYAT₺" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row mb-4">
+
+                        <div class="col">
+                            <label for="exampleFormControlInput2">Urun Adı </label>
+                            <input type="text" class="form-control" name="URUNAD" placeholder="@Model.URUNAD" >
+                        </div>
+
+                    </div>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+                            <label for="exampleFormControlInput2">Urun Aciklama </label>
+                            <textarea class="form-control" name="URUNACIKLAMA" placeholder="@Model.URUNACIKLAMA" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row mb-4">
+                        <div class="col">
+                            
+                            <img class="img-fluid  " width="420" height="400" src="data:image;base64,@Convert.ToBase64String(Model.URUNILKRESIM)"/>
+
+                        </div>
+                    </div>
+                    <div class="form-group mb-4 mt-3">
+                        <div class="custom-file-container col-6" data-upload-id="myFirstImage">
+                            <label>Yeni Resim (Tek Dosya) <a href="javascript:void(0)" class="custom-file-container__image-clear" title="Resmi Kaldır">x</a></label>
+                            <label class="custom-file-container__custom-file">
+                                <input type="file" name="URUNRESIMDOSYASI" class="custom-file-container__custom-file__custom-file-input" accept="image/*">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
+                                <span class="custom-file-container__custom-file__custom-file-control"></span>
+                            </label>
+                            <div class="custom-file-container__image-preview"></div>
+                        </div>
+                    </div>
+                    <input type="submit"  class="mt-4 mb-4 btn btn-primary ">
+                </form>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts
+{
+    <script src="/Content/assets/js/scrollspyNav.js"></script>
+    <script src="/Content/plugins/file-upload/file-upload-with-preview.min.js"></script>
+    <script src="/Content/plugins/select2/select2.min.js"></script>
+    <script src="/Content/plugins/select2/custom-select2.js"></script>
+    <script>
+        var firstUpload = new FileUploadWithPreview('myFirstImage')
+    </script>
+    <script>
+        var ss = $(".basic").select2({
+            tags: true,
+        });
+        var ss2 = $(".basic2").select2({
+            tags: true,
+        });
+    </script>
+   
+}

@@ -1,0 +1,117 @@
+﻿@model List<engmercedes.admin.Models.AltKategoriModel>
+@{
+    ViewBag.Title = "SubCategoryList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int counter = 1;
+}
+
+<div id="tableDropdown" class="col-lg-12 col-12 layout-spacing">
+    <div class="statbox widget box box-shadow">
+        <div class="widget-header">
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                    <h4>Alt Kategori Liste</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="widget-content widget-content-area">
+            <div class="table-responsive">
+                <table class="table table-bordered mb-4">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>ALT KATEGORI ADI</th>
+                            <th>KATEGORI ADI</th>
+                            <th>OLUŞTURULMA TARIHI</th>
+                            <th>SEÇENEKLER</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@counter</td>
+                                <td>@item.ALTKATEGORIADI</td>
+                                <td>@item.KATEGORIADI</td>
+                                <td>@item.CREATEDDATE</td>
+                                <td>
+
+                                    <a href="javascript:void(0);"  data-toggle="tooltip" data-placement="top" title="" data-original-title="Settings"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings text-primary"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></a>
+                                    <a href="javascript:void(0);" onclick="Update(@item.ID)" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2 text-success"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></a>
+                                    <a href="javascript:void(0);" class="subcategorydelete" onclick="Delete(@item.ID)" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2 text-danger"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg></a>
+
+                                </td>
+                            </tr>
+                            counter++;
+                        }
+
+
+                    </tbody>
+                </table>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="/Content/assets/js/scrollspyNav.js"></script>
+    <script src="/Content/plugins/sweetalerts/sweetalert2.min.js"></script>
+    <script src="/Content/plugins/sweetalerts/custom-sweetalert.js"></script>
+    <script>
+        function Delete(id) {
+
+            $('.subcategorydelete').on('click',
+                function() {
+                    swal({
+                        title: 'Silmek istediğine emin misin?',
+                        text: "Bunu geri alamayacaksınız!",
+                        type: 'warning',
+                        showCancelButton: true,
+                        cancelButtonText: "Vazgeç",
+                        confirmButtonText: 'Sil',
+                        padding: '2em'
+                    }).then(function(result) {
+                        if (result.value) {
+                            $.ajax({
+                                type: 'post',
+                                url: '/altkategori/alt-kategori-sil/' + id,
+                                success: function(data) {
+                                    if (data) {
+                                        if (result.value) {
+                                            swal(
+                                                'Silindi!',
+                                                'Alt Kategoriniz Silindi.',
+                                                'success'
+                                            );
+                                            setTimeout(function() {
+                                                location.reload();
+                                            },1000)
+
+                                        }
+                                    } else {
+                                        swal('Hata Oluştu!', 'İşlem sırasında hata oluştu?', 'warning');
+                                        return false;
+                                    }
+                                }
+                            });
+                        }
+                    });
+                });
+        }
+    </script>
+    <script>
+        function Update(id) {
+            setTimeout(function() {
+                    window.location.assign("/altkategori/alt-kategori-guncelle/" + id);
+                    //3 saniye sonra yönlenecek
+                },
+                1000);
+        }
+    </script>
+}

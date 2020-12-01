@@ -1,0 +1,102 @@
+﻿@model engmercedes.admin.Models.UrunModel
+@{
+    ViewBag.Title = "Urun Detay ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-lg-12 col-12 layout-spacing">
+    <div class="statbox widget box box-shadow">
+        <div class="widget-header">
+            <div class="row">
+                <div class="col-xl-10 col-md-10 col-sm-10 col-10">
+                    <h4>Urun Detay</h4>
+                </div>
+                <div class="col-xl-2 col-md-2 col-sm-2 col-2 pt-3">
+                    <label for="exampleFormControlInput2">Durum</label>
+                    @if (Model.ISAPPROVED == true)
+                    {
+
+
+                        <span class="badge badge-success"> MEVCUT </span>
+
+
+
+                    }
+                    else
+                    {
+                        <span class="badge badge-danger"> MEVCUT DEĞİL </span>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="statbox widget box box-shadow">
+
+            <div class="widget-content widget-content-area">
+                <form>
+                    <div class="row">
+                        
+                        <div class="form-row mb-4 col-6">
+                            <div class="col">
+                                <label for="exampleFormControlInput2">Kategori Adı </label>
+                                <input type="text" class="form-control" placeholder="@Model.KATEGORIAD" readonly="readonly">
+                            </div>
+
+                        </div>
+
+                        <div class="form-row mb-4 col-6">
+                            <div class="col">
+                                <label for="exampleFormControlInput2">Marka Adı </label>
+                                <input type="text" class="form-control" placeholder="@Model.MARKAADI" readonly="readonly">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-row mb-4 col-5">
+                            <div class="col">
+                                <label for="exampleFormControlInput2">Urun Kodu </label>
+                                <input type="text" class="form-control" placeholder="@Model.URUNKODU" readonly="readonly">
+                            </div>
+                        </div>
+                        <div class="form-row mb-4 col-5">
+                            <div class="col">
+                                <label for="exampleFormControlInput2">OEM Kodu </label>
+                                <input type="text" class="form-control" placeholder="@Model.URUNOEMKODU" readonly="readonly">
+                            </div>
+                        </div>
+                        <div class="form-row mb-4 col-2">
+                            <div class="col">
+                                <label for="exampleFormControlInput2">Urun Fiyat </label>
+                                <input type="text" class="form-control" placeholder="@Model.URUNFIYAT₺" readonly="readonly">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row mb-4">
+
+                        <div class="col">
+                            <label for="exampleFormControlInput2">Urun Adı </label>
+                            <input type="text" class="form-control" placeholder="@Model.URUNAD" readonly="readonly">
+                        </div>
+
+                    </div>
+                 
+                    <div class="form-row mb-4">
+                        <div class="col">
+                            <label for="exampleFormControlInput2">Urun Aciklama </label>
+                            <textarea class="form-control" name="URUNACIKLAMA" placeholder="@Model.URUNACIKLAMA" id="exampleFormControlTextarea1" rows="10" readonly=""></textarea>
+                        </div>
+
+                    </div>
+
+       
+                    <div class="form-row mb-4">
+                        @Html.Action("PartialProductImage", "Product")
+
+                    </div>
+                </form>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>

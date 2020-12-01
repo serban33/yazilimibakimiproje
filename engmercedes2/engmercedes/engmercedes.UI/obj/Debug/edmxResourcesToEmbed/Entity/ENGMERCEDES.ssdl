@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ENGMERCEDESModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AltKategori">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KATEGORIID" Type="int" />
+    <Property Name="ALTKATEGORIADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AltReklam">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="REKLAMRESIM1" Type="varbinary(max)" />
+    <Property Name="[REKLAMRESIM2" Type="varbinary(max)" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Ayarlar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SITEBASLIK" Type="nvarchar" MaxLength="50" />
+    <Property Name="SITELOGO" Type="varbinary(max)" />
+    <Property Name="SITEACIKLAMA" Type="nvarchar" MaxLength="50" />
+    <Property Name="SITEMAIL" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+    <Property Name="SITELOGOYOL" Type="nvarchar" MaxLength="250" />
+    <Property Name="SITETELEFON" Type="nvarchar" MaxLength="50" />
+    <Property Name="SITETELEFON2" Type="nvarchar" MaxLength="50" />
+    <Property Name="SITEADRES" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Kategori">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KATEGORIADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Kullanici">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KULLANICIADI" Type="nvarchar" MaxLength="50" />
+    <Property Name="KULLANICISIFRE" Type="nvarchar" MaxLength="50" />
+    <Property Name="KULLANICIRESIM" Type="varbinary(max)" />
+    <Property Name="LOGINDATE" Type="datetime" />
+    <Property Name="KULLANICITELEFON" Type="nvarchar" MaxLength="50" />
+    <Property Name="LOGOUTDATE" Type="datetime" />
+    <Property Name="KULLANICIMAİL" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Marka">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MARKAADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="MARKARESIM" Type="image" />
+    <Property Name="MARKARESIMYOL" Type="nvarchar" MaxLength="250" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Reklam">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="REKLAMADI" Type="nvarchar" MaxLength="50" />
+    <Property Name="REKLAMRESIM1" Type="varbinary(max)" />
+    <Property Name="REKLAMRESIMYOL" Type="nvarchar" MaxLength="100" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+    <Property Name="REKLAMRESIM2" Type="varbinary(max)" />
+    <Property Name="REKLAMRESIM3" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Sirket">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HAKKIMIZDA" Type="text" />
+    <Property Name="MISYONUMUZ" Type="text" />
+    <Property Name="VIZYONUMUZ" Type="text" />
+    <Property Name="RESIM1" Type="varbinary(max)" />
+    <Property Name="RESIM2" Type="varbinary(max)" />
+    <Property Name="RESIM3" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Slider">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SLIDERAD" Type="nvarchar" MaxLength="50" />
+    <Property Name="SLIDERYOL" Type="nvarchar" MaxLength="250" />
+    <Property Name="SLIDERIMAGE" Type="varbinary(max)" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+    <Property Name="ISAPPROVED" Type="bit" />
+  </EntityType>
+  <EntityType Name="SosyalMedya">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FACEBOOK" Type="nvarchar" MaxLength="250" />
+    <Property Name="INSTAGRAM" Type="nvarchar" MaxLength="250" />
+    <Property Name="TWITTER" Type="nvarchar" MaxLength="250" />
+    <Property Name="LINKEDIN" Type="nvarchar" MaxLength="250" />
+    <Property Name="YOUTUBE" Type="nvarchar" MaxLength="250" />
+    <Property Name="WHATSAPP" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Urun">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="URUNAD" Type="nvarchar" MaxLength="100" />
+    <Property Name="URUNACIKLAMA" Type="text" />
+    <Property Name="URUNMARKA" Type="int" />
+    <Property Name="URUNFIYAT" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="KATEGORIID" Type="int" />
+    <Property Name="ALTKATEGORIID" Type="int" />
+    <Property Name="ISAPPROVED" Type="bit" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+    <Property Name="MARKAADI" Type="nvarchar" MaxLength="50" />
+    <Property Name="URUNILKRESIM" Type="varbinary(max)" />
+    <Property Name="URUNILKRESIMYOL" Type="nvarchar" MaxLength="200" />
+    <Property Name="URUNOEMKOD" Type="nvarchar" MaxLength="150" />
+    <Property Name="URUNKODU" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="UrunResim">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RESIMAD" Type="nvarchar" MaxLength="150" />
+    <Property Name="RESIM" Type="varbinary(max)" />
+    <Property Name="RESIMYOL" Type="nvarchar" MaxLength="250" />
+    <Property Name="URUNID" Type="int" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ENGMERCEDES.dbo.vw_AltAndKat' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_AltAndKat">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="ALTKATEGORIADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="KATEGORIADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ENGMERCEDES.dbo.vw_UIUrunDetay' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_UIUrunDetay">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="URUNAD" Type="nvarchar" MaxLength="100" />
+    <Property Name="URUNACIKLAMA" Type="text" />
+    <Property Name="URUNFIYAT" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="ISAPPROVED" Type="bit" />
+    <Property Name="URUNILKRESIMYOL" Type="nvarchar" MaxLength="200" />
+    <Property Name="URUNILKRESIM" Type="varbinary(max)" />
+    <Property Name="RESIM" Type="varbinary(max)" />
+    <Property Name="RESIMYOL" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ENGMERCEDES.dbo.vw_UrunDetay' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_UrunDetay">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="URUNAD" Type="nvarchar" MaxLength="100" />
+    <Property Name="URUNACIKLAMA" Type="text" />
+    <Property Name="URUNFIYAT" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="KATEGORIADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="ALTKATEGORIADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="MARKAADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="ISAPPROVED" Type="bit" />
+    <Property Name="URUNILKRESIM" Type="varbinary(max)" />
+    <Property Name="URUNILKRESIMYOL" Type="nvarchar" MaxLength="200" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ENGMERCEDES.dbo.vw_UrunList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_UrunList">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="URUNMARKA" Type="int" />
+    <Property Name="MARKAADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="ISAPPROVED" Type="bit" />
+    <Property Name="ALTKATEGORIID" Type="int" />
+    <Property Name="KATEGORIADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="KATEGORIID" Type="int" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+    <Property Name="URUNACIKLAMA" Type="text" />
+    <Property Name="URUNAD" Type="nvarchar" MaxLength="100" />
+    <Property Name="URUNFIYAT" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="URUNILKRESIM" Type="varbinary(max)" />
+    <Property Name="URUNILKRESIMYOL" Type="nvarchar" MaxLength="200" />
+    <Property Name="URUNOEMKOD" Type="nvarchar" MaxLength="150" />
+    <Property Name="URUNKODU" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ENGMERCEDES.dbo.vw_UrunModel' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_UrunModel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="KATEGORIID" Type="int" />
+    <Property Name="ALTKATEGORIID" Type="int" />
+    <Property Name="URUNMARKA" Type="int" />
+    <Property Name="URUNACIKLAMA" Type="text" />
+    <Property Name="URUNAD" Type="nvarchar" MaxLength="100" />
+    <Property Name="ISAPPROVED" Type="bit" />
+    <Property Name="KATEGORIADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="ALTKATEGORIADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="MARKAADI" Type="nvarchar" MaxLength="250" />
+    <Property Name="CREATEDDATE" Type="datetime" />
+    <Property Name="UPDATEDDATE" Type="datetime" />
+    <Property Name="URUNFIYAT" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <Association Name="FK_Urun_AltKategori">
+    <End Role="AltKategori" Type="Self.AltKategori" Multiplicity="0..1" />
+    <End Role="Urun" Type="Self.Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AltKategori">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="ALTKATEGORIID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Urun_Kategori">
+    <End Role="Kategori" Type="Self.Kategori" Multiplicity="0..1" />
+    <End Role="Urun" Type="Self.Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategori">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="KATEGORIID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Urun_Marka">
+    <End Role="Marka" Type="Self.Marka" Multiplicity="0..1" />
+    <End Role="Urun" Type="Self.Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marka">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="URUNMARKA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UrunResim_Urun">
+    <End Role="Urun" Type="Self.Urun" Multiplicity="0..1" />
+    <End Role="UrunResim" Type="Self.UrunResim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urun">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UrunResim">
+        <PropertyRef Name="URUNID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="funcGetProductDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="urunid" Type="int" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="URUNAD" Type="nvarchar" MaxLength="100" />
+          <Property Name="URUNACIKLAMA" Type="text" />
+          <Property Name="URUNFIYAT" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="ISAPPROVED" Type="bit" />
+          <Property Name="URUNILKRESIMYOL" Type="nvarchar" MaxLength="200" />
+          <Property Name="URUNILKRESIM" Type="varbinary(max)" />
+          <Property Name="RESIM" Type="varbinary(max)" />
+          <Property Name="RESIMYOL" Type="nvarchar" MaxLength="250" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="LogInDate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="logindate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="LogOutDate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="dateout" Type="datetime" Mode="In" />
+  </Function>
+  <EntityContainer Name="ENGMERCEDESModelStoreContainer">
+    <EntitySet Name="AltKategori" EntityType="Self.AltKategori" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AltReklam" EntityType="Self.AltReklam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ayarlar" EntityType="Self.Ayarlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kategori" EntityType="Self.Kategori" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kullanici" EntityType="Self.Kullanici" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Marka" EntityType="Self.Marka" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reklam" EntityType="Self.Reklam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sirket" EntityType="Self.Sirket" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Slider" EntityType="Self.Slider" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SosyalMedya" EntityType="Self.SosyalMedya" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Urun" EntityType="Self.Urun" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UrunResim" EntityType="Self.UrunResim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vw_AltAndKat" EntityType="Self.vw_AltAndKat" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_AltAndKat].[ID] AS [ID], 
+    [vw_AltAndKat].[ALTKATEGORIADI] AS [ALTKATEGORIADI], 
+    [vw_AltAndKat].[KATEGORIADI] AS [KATEGORIADI], 
+    [vw_AltAndKat].[CREATEDDATE] AS [CREATEDDATE], 
+    [vw_AltAndKat].[UPDATEDDATE] AS [UPDATEDDATE]
+    FROM [dbo].[vw_AltAndKat] AS [vw_AltAndKat]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_UIUrunDetay" EntityType="Self.vw_UIUrunDetay" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_UIUrunDetay].[ID] AS [ID], 
+    [vw_UIUrunDetay].[URUNAD] AS [URUNAD], 
+    [vw_UIUrunDetay].[URUNACIKLAMA] AS [URUNACIKLAMA], 
+    [vw_UIUrunDetay].[URUNFIYAT] AS [URUNFIYAT], 
+    [vw_UIUrunDetay].[ISAPPROVED] AS [ISAPPROVED], 
+    [vw_UIUrunDetay].[URUNILKRESIMYOL] AS [URUNILKRESIMYOL], 
+    [vw_UIUrunDetay].[URUNILKRESIM] AS [URUNILKRESIM], 
+    [vw_UIUrunDetay].[RESIM] AS [RESIM], 
+    [vw_UIUrunDetay].[RESIMYOL] AS [RESIMYOL]
+    FROM [dbo].[vw_UIUrunDetay] AS [vw_UIUrunDetay]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_UrunDetay" EntityType="Self.vw_UrunDetay" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_UrunDetay].[ID] AS [ID], 
+    [vw_UrunDetay].[URUNAD] AS [URUNAD], 
+    [vw_UrunDetay].[URUNACIKLAMA] AS [URUNACIKLAMA], 
+    [vw_UrunDetay].[URUNFIYAT] AS [URUNFIYAT], 
+    [vw_UrunDetay].[KATEGORIADI] AS [KATEGORIADI], 
+    [vw_UrunDetay].[ALTKATEGORIADI] AS [ALTKATEGORIADI], 
+    [vw_UrunDetay].[MARKAADI] AS [MARKAADI], 
+    [vw_UrunDetay].[ISAPPROVED] AS [ISAPPROVED], 
+    [vw_UrunDetay].[URUNILKRESIM] AS [URUNILKRESIM], 
+    [vw_UrunDetay].[URUNILKRESIMYOL] AS [URUNILKRESIMYOL], 
+    [vw_UrunDetay].[CREATEDDATE] AS [CREATEDDATE], 
+    [vw_UrunDetay].[UPDATEDDATE] AS [UPDATEDDATE]
+    FROM [dbo].[vw_UrunDetay] AS [vw_UrunDetay]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_UrunList" EntityType="Self.vw_UrunList" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_UrunList].[ID] AS [ID], 
+    [vw_UrunList].[URUNMARKA] AS [URUNMARKA], 
+    [vw_UrunList].[MARKAADI] AS [MARKAADI], 
+    [vw_UrunList].[ISAPPROVED] AS [ISAPPROVED], 
+    [vw_UrunList].[ALTKATEGORIID] AS [ALTKATEGORIID], 
+    [vw_UrunList].[KATEGORIADI] AS [KATEGORIADI], 
+    [vw_UrunList].[KATEGORIID] AS [KATEGORIID], 
+    [vw_UrunList].[CREATEDDATE] AS [CREATEDDATE], 
+    [vw_UrunList].[UPDATEDDATE] AS [UPDATEDDATE], 
+    [vw_UrunList].[URUNACIKLAMA] AS [URUNACIKLAMA], 
+    [vw_UrunList].[URUNAD] AS [URUNAD], 
+    [vw_UrunList].[URUNFIYAT] AS [URUNFIYAT], 
+    [vw_UrunList].[URUNILKRESIM] AS [URUNILKRESIM], 
+    [vw_UrunList].[URUNILKRESIMYOL] AS [URUNILKRESIMYOL], 
+    [vw_UrunList].[URUNOEMKOD] AS [URUNOEMKOD], 
+    [vw_UrunList].[URUNKODU] AS [URUNKODU]
+    FROM [dbo].[vw_UrunList] AS [vw_UrunList]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_UrunModel" EntityType="Self.vw_UrunModel" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_UrunModel].[ID] AS [ID], 
+    [vw_UrunModel].[KATEGORIID] AS [KATEGORIID], 
+    [vw_UrunModel].[ALTKATEGORIID] AS [ALTKATEGORIID], 
+    [vw_UrunModel].[URUNMARKA] AS [URUNMARKA], 
+    [vw_UrunModel].[URUNACIKLAMA] AS [URUNACIKLAMA], 
+    [vw_UrunModel].[URUNAD] AS [URUNAD], 
+    [vw_UrunModel].[ISAPPROVED] AS [ISAPPROVED], 
+    [vw_UrunModel].[KATEGORIADI] AS [KATEGORIADI], 
+    [vw_UrunModel].[ALTKATEGORIADI] AS [ALTKATEGORIADI], 
+    [vw_UrunModel].[MARKAADI] AS [MARKAADI], 
+    [vw_UrunModel].[CREATEDDATE] AS [CREATEDDATE], 
+    [vw_UrunModel].[UPDATEDDATE] AS [UPDATEDDATE], 
+    [vw_UrunModel].[URUNFIYAT] AS [URUNFIYAT]
+    FROM [dbo].[vw_UrunModel] AS [vw_UrunModel]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Urun_AltKategori" Association="Self.FK_Urun_AltKategori">
+      <End Role="AltKategori" EntitySet="AltKategori" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Urun_Kategori" Association="Self.FK_Urun_Kategori">
+      <End Role="Kategori" EntitySet="Kategori" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Urun_Marka" Association="Self.FK_Urun_Marka">
+      <End Role="Marka" EntitySet="Marka" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UrunResim_Urun" Association="Self.FK_UrunResim_Urun">
+      <End Role="Urun" EntitySet="Urun" />
+      <End Role="UrunResim" EntitySet="UrunResim" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,134 @@
+﻿@model engmercedes.UI.Models.UrunDetayModel
+@{
+    ViewBag.Title = "Urun Detay";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--== Start Page Header Area ==-->
+<div class="page-header-wrap bg-img" data-bg="/Content/assets/img/bg/page-header-bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="page-header-content">
+                    <div class="page-header-content-inner">
+                        <h1>@ViewBag.Title</h1>
+
+                        <ul class="breadcrumb">
+                            <li><a href="/">Anasayfa</a></li>
+                            <li class="current"><a href="#">@ViewBag.Title</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-content-wrapper sp-y">
+    <div class="product-details-page-content">
+        <div class="container container-wide">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <!-- Start Product Thumbnail Area -->
+                        <div class="col-md-5">
+                            <div class="product-thumb-area">
+                                <div class="product-details-thumbnail">
+                                    <div class="product-thumbnail-slider" id="thumb-gallery">
+                                        <figure class="pro-thumb-item" data-mfp-src="data:image;base64,@Convert.ToBase64String(Model.URUNILKRESIM)">
+                                            <img src="data:image;base64,@Convert.ToBase64String(Model.URUNILKRESIM)" alt="@Model.URUNAD" />
+                                        </figure>
+                                        @Html.Action("PartialProductImages", "Product")
+                                    </div>
+
+                                    <a href="#thumb-gallery" class="btn-large-view btn-gallery-popup">View Larger <i class="fa fa-search-plus"></i></a>
+                                </div>
+
+                                <div class="product-details-thumbnail-nav">
+                                    <figure class="pro-thumb-item" data-mfp-src="data:image;base64,@Convert.ToBase64String(Model.URUNILKRESIM)">
+                                        <img src="data:image;base64,@Convert.ToBase64String(Model.URUNILKRESIM)" alt="" />
+                                    </figure>
+                                    @Html.Action("PartialProductImage", "Product")
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Thumbnail Area -->
+                        <!-- Start Product Info Area -->
+                        <div class="col-md-7">
+                            <div class="product-details-info-content-wrap">
+                                <div class="prod-details-info-content">
+                                    <h2>@Model.URUNAD</h2>
+                                    <h5 class="price">
+                                        <strong>Fiyat:</strong> <span class="price-amount">₺@Model.URUNFIYAT</span>
+                                    </h5>
+                                   
+
+                                    <div class="product-meta">
+
+                                        <span class="posted_in">
+                                            KATEGORI:
+                                            <a>@Model.KATEGORIADI</a>
+                                             
+                                        </span>
+                                        <span class="posted_in">
+                                            URUN OEM KODU:
+                                            <a>@Model.URUNOEMKODU</a>
+                                             
+                                        </span>
+                                        <span class="posted_in">
+                                            URUN KODU:
+                                            <a>@Model.URUNKODU</a>
+                                             
+                                        </span>
+                                        <span class="posted_in">
+                                            Stok Durumu:
+                                            @if (Model.ISAPPROVED == true)
+                                            {
+                                                <a class="badge badge-success">Mevcut</a>
+                                            }
+                                            else
+                                            {
+                                                <a class="badge badge-danger">Mevcut Değil</a>
+                                            }
+
+                                        </span>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Info Area -->
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="product-description-review">
+                                <!-- Product Description Tab Menu -->
+                                <ul class="nav nav-tabs desc-review-tab-menu" id="desc-review-tab" role="tablist">
+                                    <li>
+                                        <a class="active" id="desc-tab" data-toggle="tab" href="#descriptionContent" role="tab">URUN ACIKLAMASI</a>
+                                    </li>
+
+                                </ul>
+
+                                <!-- Product Description Tab Content -->
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="descriptionContent">
+                                        <div class="description-content">
+                                            <p>
+                                                @Model.URUNACIKLAMA
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

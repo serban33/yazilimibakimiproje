@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ENGMERCEDESModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AltKategori">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KATEGORIID" Type="Int32" />
+    <Property Name="ALTKATEGORIADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Kategori" Relationship="ENGMERCEDESModel.FK_AltKategori_Kategori" FromRole="AltKategori" ToRole="Kategori" />
+    <NavigationProperty Name="Urun" Relationship="ENGMERCEDESModel.FK_Urun_AltKategori" FromRole="AltKategori" ToRole="Urun" />
+  </EntityType>
+  <EntityType Name="Ayarlar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SITEBASLIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SITELOGO" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="SITEACIKLAMA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SITEMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="SITELOGOYOL" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SITETELEFON" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SITETELEFON2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SITEADRES" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Kategori">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KATEGORIADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="AltKategori" Relationship="ENGMERCEDESModel.FK_AltKategori_Kategori" FromRole="Kategori" ToRole="AltKategori" />
+    <NavigationProperty Name="Urun" Relationship="ENGMERCEDESModel.FK_Urun_Kategori" FromRole="Kategori" ToRole="Urun" />
+  </EntityType>
+  <EntityType Name="Kullanici">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KULLANICIADI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KULLANICISIFRE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KULLANICIRESIM" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="LOGINDATE" Type="DateTime" Precision="3" />
+    <Property Name="KULLANICITELEFON" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LOGOUTDATE" Type="DateTime" Precision="3" />
+    <Property Name="KULLANICIMAİL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Marka">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MARKAADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MARKARESIM" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="MARKARESIMYOL" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Urun" Relationship="ENGMERCEDESModel.FK_Urun_Marka" FromRole="Marka" ToRole="Urun" />
+  </EntityType>
+  <EntityType Name="Slider">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SLIDERAD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SLIDERYOL" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SLIDERIMAGE" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="ISAPPROVED" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="SosyalMedya">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FACEBOOK" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="INSTAGRAM" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TWITTER" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LINKEDIN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="YOUTUBE" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="WHATSAPP" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Urun">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="URUNAD" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="URUNACIKLAMA" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="URUNMARKA" Type="Int32" />
+    <Property Name="URUNFIYAT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="KATEGORIID" Type="Int32" />
+    <Property Name="ALTKATEGORIID" Type="Int32" />
+    <Property Name="ISAPPROVED" Type="Boolean" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="AltKategori" Relationship="ENGMERCEDESModel.FK_Urun_AltKategori" FromRole="Urun" ToRole="AltKategori" />
+    <NavigationProperty Name="Kategori" Relationship="ENGMERCEDESModel.FK_Urun_Kategori" FromRole="Urun" ToRole="Kategori" />
+    <NavigationProperty Name="Marka" Relationship="ENGMERCEDESModel.FK_Urun_Marka" FromRole="Urun" ToRole="Marka" />
+    <Property Name="MARKAADI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="UrunResim" Relationship="ENGMERCEDESModel.FK_UrunResim_Urun" FromRole="Urun" ToRole="UrunResim" />
+    <Property Name="URUNILKRESIM" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="URUNILKRESIMYOL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="URUNOEMKOD" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="URUNKODU" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="UrunResim">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RESIMAD" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="RESIM" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="RESIMYOL" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="URUNID" Type="Int32" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Urun" Relationship="ENGMERCEDESModel.FK_UrunResim_Urun" FromRole="UrunResim" ToRole="Urun" />
+  </EntityType>
+  <EntityType Name="vw_AltKatAndKat">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="ALTKATEGORIADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="KATEGORIADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="vw_UrunModel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="KATEGORIID" Type="Int32" />
+    <Property Name="ALTKATEGORIID" Type="Int32" />
+    <Property Name="URUNMARKA" Type="Int32" />
+    <Property Name="URUNACIKLAMA" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="URUNAD" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ISAPPROVED" Type="Boolean" />
+    <Property Name="KATEGORIADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ALTKATEGORIADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MARKAADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="URUNFIYAT" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityContainer Name="ENGMERCEDESEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AltKategori" EntityType="Self.AltKategori" />
+    <EntitySet Name="Ayarlar" EntityType="Self.Ayarlar" />
+    <EntitySet Name="Kategori" EntityType="Self.Kategori" />
+    <EntitySet Name="Kullanici" EntityType="Self.Kullanici" />
+    <EntitySet Name="Marka" EntityType="Self.Marka" />
+    <EntitySet Name="Slider" EntityType="Self.Slider" />
+    <EntitySet Name="SosyalMedya" EntityType="Self.SosyalMedya" />
+    <EntitySet Name="Urun" EntityType="Self.Urun" />
+    <EntitySet Name="UrunResim" EntityType="Self.UrunResim" />
+    <EntitySet Name="vw_AltKatAndKat" EntityType="Self.vw_AltKatAndKat" />
+    <EntitySet Name="vw_UrunModel" EntityType="Self.vw_UrunModel" />
+    <FunctionImport Name="LogInDate">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="logindate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="LogOutDate">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="dateout" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <AssociationSet Name="FK_AltKategori_Kategori" Association="ENGMERCEDESModel.FK_AltKategori_Kategori">
+      <End Role="Kategori" EntitySet="Kategori" />
+      <End Role="AltKategori" EntitySet="AltKategori" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Urun_AltKategori" Association="ENGMERCEDESModel.FK_Urun_AltKategori">
+      <End Role="AltKategori" EntitySet="AltKategori" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Urun_Kategori" Association="ENGMERCEDESModel.FK_Urun_Kategori">
+      <End Role="Kategori" EntitySet="Kategori" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Urun_Marka" Association="ENGMERCEDESModel.FK_Urun_Marka">
+      <End Role="Marka" EntitySet="Marka" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UrunResim_Urun" Association="ENGMERCEDESModel.FK_UrunResim_Urun">
+      <End Role="Urun" EntitySet="Urun" />
+      <End Role="UrunResim" EntitySet="UrunResim" />
+    </AssociationSet>
+    <EntitySet Name="vw_UrunDetay" EntityType="ENGMERCEDESModel.vw_UrunDetay" />
+    <EntitySet Name="AltReklam" EntityType="ENGMERCEDESModel.AltReklam" />
+    <EntitySet Name="Reklam" EntityType="ENGMERCEDESModel.Reklam" />
+    <EntitySet Name="Sirket" EntityType="ENGMERCEDESModel.Sirket" />
+    <EntitySet Name="vw_UrunList" EntityType="ENGMERCEDESModel.vw_UrunList" />
+  </EntityContainer>
+  <Association Name="FK_AltKategori_Kategori">
+    <End Type="ENGMERCEDESModel.Kategori" Role="Kategori" Multiplicity="0..1" />
+    <End Type="ENGMERCEDESModel.AltKategori" Role="AltKategori" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategori">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AltKategori">
+        <PropertyRef Name="KATEGORIID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Urun_AltKategori">
+    <End Type="ENGMERCEDESModel.AltKategori" Role="AltKategori" Multiplicity="0..1" />
+    <End Type="ENGMERCEDESModel.Urun" Role="Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AltKategori">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="ALTKATEGORIID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Urun_Kategori">
+    <End Type="ENGMERCEDESModel.Kategori" Role="Kategori" Multiplicity="0..1" />
+    <End Type="ENGMERCEDESModel.Urun" Role="Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategori">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="KATEGORIID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Urun_Marka">
+    <End Type="ENGMERCEDESModel.Marka" Role="Marka" Multiplicity="0..1" />
+    <End Type="ENGMERCEDESModel.Urun" Role="Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marka">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="URUNMARKA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UrunResim_Urun">
+    <End Type="ENGMERCEDESModel.Urun" Role="Urun" Multiplicity="0..1" />
+    <End Type="ENGMERCEDESModel.UrunResim" Role="UrunResim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urun">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UrunResim">
+        <PropertyRef Name="URUNID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="vw_UrunDetay">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="URUNAD" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="URUNACIKLAMA" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="URUNFIYAT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="KATEGORIADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ALTKATEGORIADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MARKAADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ISAPPROVED" Type="Boolean" />
+    <Property Name="URUNILKRESIM" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="URUNILKRESIMYOL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="AltReklam">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="REKLAMRESIM1" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="C_REKLAMRESIM2" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Reklam">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="REKLAMADI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="REKLAMRESIM1" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="REKLAMRESIMYOL" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="REKLAMRESIM2" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="REKLAMRESIM3" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Sirket">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HAKKIMIZDA" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="MISYONUMUZ" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="VIZYONUMUZ" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="RESIM1" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="RESIM2" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="RESIM3" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_UrunList">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="URUNMARKA" Type="Int32" />
+    <Property Name="MARKAADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ISAPPROVED" Type="Boolean" />
+    <Property Name="ALTKATEGORIID" Type="Int32" />
+    <Property Name="KATEGORIADI" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="KATEGORIID" Type="Int32" />
+    <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="URUNACIKLAMA" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="URUNAD" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="URUNFIYAT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="URUNILKRESIM" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="URUNILKRESIMYOL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="URUNOEMKOD" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="URUNKODU" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

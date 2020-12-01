@@ -1,0 +1,72 @@
+﻿@model IEnumerable<engmercedes.UI.Models.SliderModel>
+@if (Model.Count() > 0)
+{
+    <div class="slider-area-wrapper">
+        <div class="slider-content-active">
+            @foreach (var item in Model)
+            {
+                <div class="slider-slide-item bg-img" data-bg="data:image;base64,@Convert.ToBase64String(item.SLIDERIMAGE)">
+                    <div class="container container-wide h-100">
+                        <div class="row align-items-center h-100">
+                            <div class="col-lg-6">
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <h3>ENG MERCEDES</h3>
+                                        <h2>MERCEDES YEDEK PARÇA &amp; YETKILI SERVIS</h2>
+                              
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        
+
+        </div>
+    </div>
+}
+else
+{
+    <div class="slider-area-wrapper">
+        <div class="slider-content-active">
+
+            <div class="slider-slide-item bg-img" data-bg="~/Content/assets/img/slider/slider-1.jpg">
+                <div class="container container-wide h-100">
+                    <div class="row align-items-center h-100">
+                        <div class="col-lg-6">
+                            <div class="slide-content">
+                                <div class="slide-content-inner">
+                                    <h3>ENG MERCEDES</h3>
+                                    <h2>MERCEDES YEDEK PARÇA &amp; YETKILI SERVIS</h2>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="slider-slide-item bg-img" data-bg="~/Content/assets/img/slider/slider-2-1.jpg">
+                <div class="container container-wide h-100">
+                    <div class="row align-items-center h-100">
+                        <div class="col-lg-6">
+                            <div class="slide-content">
+                                <div class="slide-content-inner">
+                                    <h3>ENG MERCEDES</h3>
+                                    <h2>MERCEDES YEDEK PARÇA &amp; YETKILI SERVIS</h2>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+}
+

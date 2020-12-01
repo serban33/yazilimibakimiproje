@@ -1,0 +1,48 @@
+﻿@model IEnumerable<engmercedes.UI.Models.MarkaModel>
+@{
+    ViewBag.Title = "Markalar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="page-header-wrap bg-img" data-bg="/Content/assets/img/bg/page-header-bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="page-header-content">
+                    <div class="page-header-content-inner">
+                        <h1>@ViewBag.Title</h1>
+
+                        <ul class="breadcrumb">
+                            <li><a href="/">Anasayfa</a></li>
+                            <li class="current"><a href="#">@ViewBag.Title</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--== End Page Header Area ==-->
+<!--== Start Page Content Wrapper ==-->
+<div class="page-content-wrapper sp-y">
+    <div class="gallery-page-content">
+        <div class="container container-wide">
+            <div class="row mtn-30 image-gallery">
+                @foreach (var item in Model)
+                {
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="gallery-item" data-mfp-src="data:image;base64,@Convert.ToBase64String(item.MARKARESIM)">
+                            <img src="data:image;base64,@Convert.ToBase64String(item.MARKARESIM)" alt="@item.MARKAADI" />
+                            <div class="gallery-item__text">
+                                <h3>@item.MARKAADI</h3>
+                            </div>
+                        </div>
+                    </div>
+ 
+                }
+            </div>
+        </div>
+    </div>
+</div>

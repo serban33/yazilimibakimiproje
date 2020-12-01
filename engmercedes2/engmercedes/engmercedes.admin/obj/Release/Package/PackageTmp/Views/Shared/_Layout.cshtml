@@ -1,0 +1,351 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <title>ENG MERCEDES - YONETIM PANELI</title>
+    <link rel="icon" type="image/x-icon" href="/Content/assets/img/favicon.ico" />
+    <link href="/Content/assets/css/loader.css" rel="stylesheet" type="text/css" />
+    <script src="/Content/assets/js/loader.js"></script>
+
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link href="/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/assets/css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/assets/css/components/custom-modal.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+    <link href="/Content/plugins/apex/apexcharts.css" rel="stylesheet" type="text/css">
+    <link href="/Content/assets/css/dashboard/dash_2.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/Content/plugins/table/datatable/datatables.css">
+    <link rel="stylesheet" type="text/css" href="/Content/assets/css/forms/theme-checkbox-radio.css">
+    <link rel="stylesheet" type="text/css" href="/Content/plugins/table/datatable/dt-global_style.css">
+    <link rel="stylesheet" type="text/css" href="/Content/plugins/table/datatable/custom_dt_custom.css">
+    <link href="/Content/assets/css/scrollspyNav.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/plugins/file-upload/file-upload-with-preview.min.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+    <link href="/Content/assets/css/users/user-profile.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/Content/plugins/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="/Content/assets/css/elements/alert.css">
+    <script src="/Content/plugins/sweetalerts/promise-polyfill.js"></script>
+    <link href="/Content/plugins/sweetalerts/sweetalert2.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/plugins/sweetalerts/sweetalert.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/assets/css/components/custom-sweetalert.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/assets/css/scrollspyNav.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/assets/css/components/custom-modal.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/assets/css/elements/custom-pagination.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/Content/plugins/table/datatable/datatables.css">
+    <link rel="stylesheet" type="text/css" href="/Content/plugins/table/datatable/dt-global_style.css">
+    <style>
+        .btn-light {
+            border-color: transparent;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- BEGIN LOADER -->
+    <div id="load_screen">
+        <div class="loader">
+            <div class="loader-content">
+                <div class="spinner-grow align-self-center"></div>
+            </div>
+        </div>
+    </div>
+    <!--  END LOADER -->
+    <!--  BEGIN NAVBAR  -->
+    <div class="header-container fixed-top">
+        <header class="header navbar navbar-expand-sm">
+
+            <ul class="navbar-item theme-brand flex-row  text-center">
+                <li class="nav-item theme-logo">
+                    <a href="/Home/Index">
+                        <img src="/Content/assets/img/90x90.jpg" class="navbar-logo" alt="logo">
+                    </a>
+                </li>
+                <li class="nav-item theme-text">
+                    <a href="/Home/Index" class="nav-link"> ENG OTOMOTİV - ENGİN DİNDAR </a>
+                </li>
+            </ul>
+
+           
+
+            <ul class="navbar-item flex-row ml-md-auto">
+
+                <li class="nav-item dropdown language-dropdown show">
+               
+                <li class="nav-item dropdown user-profile-dropdown">
+                    <a href="javascript:void(0);" class="nav-link dropdown-toggle user" id="userProfileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <img src="/Content/assets/img/90x90.jpg" alt="avatar">
+                    </a>
+                    <div class="dropdown-menu position-absolute" aria-labelledby="userProfileDropdown">
+                        <div class="">
+                            <div class="dropdown-item">
+                                <a class="" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> Profil Ayarları</a>
+                            </div>
+
+                            <div class="dropdown-item">
+                                <a class="" href="/Cikis"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg> Çıkış Yap</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </header>
+    </div>
+    <!--  END NAVBAR  -->
+    <!--  BEGIN NAVBAR  -->
+    <div class="sub-header-container">
+        <header class="header navbar navbar-expand-sm">
+            <a href="javascript:void(0);" class="sidebarCollapse" data-placement="bottom"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></a>
+
+            <ul class="navbar-nav flex-row">
+                <li>
+                    <div class="page-header">
+
+                        <nav class="breadcrumb-one" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/Home/Index">Anasayfa</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><span>@ViewBag.Title</span></li>
+                            </ol>
+                        </nav>
+
+                    </div>
+                </li>
+            </ul>
+ 
+
+        </header>
+    </div>
+    <!--  END NAVBAR  -->
+    <!--  BEGIN MAIN CONTAINER  -->
+    <div class="main-container" id="container">
+
+        <div class="overlay"></div>
+        <div class="search-overlay"></div>
+
+        <!--  BEGIN SIDEBAR  -->
+        <div class="sidebar-wrapper sidebar-theme">
+
+            <nav id="sidebar">
+                <div class="shadow-bottom"></div>
+
+                <ul class="list-unstyled menu-categories" id="accordionExample">
+                    <li class="menu">
+                        <a href="/Home/Index" data-active="@(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "true" : "false")" aria-expanded=" @(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "true" : "false")" class="dropdown-toggle">
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                                <span>Anasayfa</span>
+                            </div>
+
+                        </a>
+
+                    </li>
+                    <li class="menu">
+                        <a href="/reklam/reklam-liste" data-active="@(ViewContext.RouteData.Values["Controller"].ToString() == "Promo" ? "true" : "false")" aria-expanded=" @(ViewContext.RouteData.Values["Action"].ToString() == "Promo" ? "true" : "false")" class="dropdown-toggle">
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-aperture"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+                                <span>Reklam</span>
+                            </div>
+
+                        </a>
+
+                    </li>
+                    <li class="menu">
+                        <a href="#app" data-toggle="collapse" data-active="@(ViewContext.RouteData.Values["Controller"].ToString() == "Common" ? "true" : "false")" aria-expanded="@(ViewContext.RouteData.Values["Controller"].ToString() == "Common" ? "true" : "false")" class="dropdown-toggle collapsed">
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cpu"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+                                <span>Genel</span>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </div>
+                        </a>
+                        <ul class="submenu list-unstyled collapse @(ViewContext.RouteData.Values["Controller"].ToString() == "Common" ? "show" : "")" id="app" data-parent="#app" style="">
+                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "SliderList" ? "active" : "")">
+                                <a href="/genel/slider-liste"> Slider </a>
+                            </li>
+                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "SocialMedia" ? "active" : "")">
+                                <a href="/genel/sosyal-medya"> Sosyal Medya </a>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="#company" data-toggle="collapse" data-active="@(ViewContext.RouteData.Values["Controller"].ToString() == "Company" ? "true" : "false")" aria-expanded="@(ViewContext.RouteData.Values["Controller"].ToString() == "Company" ? "true" : "false")" class="dropdown-toggle collapsed">
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-coffee"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+                                <span>Sirket</span>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </div>
+                        </a>
+                        <ul class="submenu list-unstyled collapse @(ViewContext.RouteData.Values["Controller"].ToString() == "Company" ? "show" : "")" id="company" data-parent="#company" style="">
+                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "CompanyDetail" ? "active" : "")">
+                                <a href="/sirket/sirket-detay"> Detay </a>
+                            </li>
+                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "CompanyAdd" ? "active" : "")">
+                                <a href="/sirket/sirket-bilgisi-ekle"> Ekle </a>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="#category" data-toggle="collapse" data-active="@(ViewContext.RouteData.Values["Controller"].ToString() == "Category" ? "true" : "false")" aria-expanded="@(ViewContext.RouteData.Values["Controller"].ToString() == "Category" ? "true" : "false")" class="dropdown-toggle collapsed">
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                                <span>Kategori</span>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </div>
+                        </a>
+                        <ul class="submenu list-unstyled collapse @(ViewContext.RouteData.Values["Controller"].ToString() == "Category" ? "show" : "")" id="category" data-parent="#category" style="">
+                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "CategoryAdd" ? "active" : "")">
+                                <a href="/kategori/kategori-ekle"> Ekle </a>
+                            </li>
+                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "CategoryList" ? "active" : "")">
+                                <a href="/kategori/kategori-liste"> Listele </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+                  
+                    <li class="menu">
+                        <a href="#product" data-toggle="collapse" data-active="@(ViewContext.RouteData.Values["Controller"].ToString() == "Product" ? "true" : "false")" aria-expanded="@(ViewContext.RouteData.Values["Controller"].ToString() == "Product" ? "true" : "false")" class="dropdown-toggle collapsed">
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-archive"><polyline points="21 8 21 21 3 21 3 8"></polyline><rect x="1" y="3" width="22" height="5"></rect><line x1="10" y1="12" x2="14" y2="12"></line></svg>
+                                <span>Ürün</span>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </div>
+                        </a>
+                        <ul class="submenu list-unstyled collapse  @(ViewContext.RouteData.Values["Controller"].ToString() == "Product" ? "show" : "")" id="product" data-parent="#accordionExample" style="">
+                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "ProductList" ? "active" : "")">
+                                <a href="/urun/urun-liste">Listele</a>
+                            </li>
+                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "ProductAdd" ? "active" : "")">
+                                <a href="/urun/urun-ekle">Ekle</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="#brand" data-toggle="collapse" data-active="@(ViewContext.RouteData.Values["Controller"].ToString() == "Brand" ? "true" : "false")" aria-expanded="@(ViewContext.RouteData.Values["Controller"].ToString() == "Brand" ? "true" : "false")" class="dropdown-toggle collapsed">
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-award"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                                <span>Marka</span>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </div>
+                        </a>
+                        <ul class="submenu list-unstyled collapse  @(ViewContext.RouteData.Values["Controller"].ToString() == "Brand" ? "show" : "")" id="brand" data-parent="#accordionExample" style="">
+                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "BrandAdd" ? "active" : "")">
+                                <a href="/marka/marka-ekle">Ekle</a>
+                            </li>
+                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "BrandList" ? "active" : "")">
+                                <a href="/marka/marka-liste">Listele</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    @*<li class="menu">
+                        <a href="#resital" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed">
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                <span>Resital</span>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </div>
+                        </a>
+                        <ul class="submenu list-unstyled collapse" id="resital" data-parent="#accordionExample" style="">
+                            <li>
+                                <a href="apps_chat.html">Ürünleri Listele</a>
+                            </li>
+
+
+                        </ul>
+                    </li>*@
+                    <li class="menu">
+                        <a href="#setting" data-toggle="collapse" data-active="@(ViewContext.RouteData.Values["Action"].ToString() == "Setting" ? "true" : "false")" aria-expanded="@(ViewContext.RouteData.Values["Action"].ToString() == "Setting" ? "true" : "false")" class="dropdown-toggle collapsed">
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                                <span>Site Ayarı</span>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </div>
+                        </a>
+                        <ul class="submenu list-unstyled collapse @(ViewContext.RouteData.Values["Controller"].ToString() == "Setting" ? "show" : "")" id="setting" data-parent="#setting" style="">
+                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "SettingDetail" ? "active" : "")">
+                                <a href="/site-ayarlari/detay"> Detay </a>
+                            </li>
+                            <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Setting" ? "active" : "")">
+                                <a href="/site-ayarlari/ayar"> Ayarlar </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+        <!--  END SIDEBAR  -->
+        <!--  BEGIN CONTENT PART  -->
+        <div id="content" class="main-content">
+
+            <div class="layout-px-spacing">
+
+                <div class="row layout-top-spacing">
+
+                    @RenderBody()
+                </div>
+
+            </div>
+
+            <div class="footer-wrapper">
+                <div class="footer-section f-section-1">
+                    <p class="">Copyright © 2020 <a target="_blank" href="https://designreset.com">DesignReset</a>, All rights reserved.</p>
+                </div>
+                <div class="footer-section f-section-2">
+                    <p class="">Coded with <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></p>
+                </div>
+            </div>
+        </div>
+        <!--  END CONTENT PART  -->
+
+    </div>
+    <!-- END MAIN CONTAINER -->
+    <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+    <script src="/Content/assets/js/libs/jquery-3.1.1.min.js"></script>
+    <script src="/Content/bootstrap/js/popper.min.js"></script>
+    <script src="/Content/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/Content/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="/Content/assets/js/app.js"></script>
+    <script>
+        $(document).ready(function () {
+            App.init();
+        });
+    </script>
+    <script src="/Content/plugins/highlight/highlight.pack.js"></script>
+    <script src="/Content/assets/js/custom.js"></script>
+
+    <!-- END GLOBAL MANDATORY SCRIPTS -->
+    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+    <script src="/Content/plugins/apex/apexcharts.min.js"></script>
+    <script src="/Content/assets/js/dashboard/dash_2.js"></script>
+    <script src="/Content/plugins/table/datatable/datatables.js"></script>
+    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+    @RenderSection("scripts", false)
+</body>
+</html>

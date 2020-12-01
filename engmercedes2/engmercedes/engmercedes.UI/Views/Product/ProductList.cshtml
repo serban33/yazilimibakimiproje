@@ -1,0 +1,147 @@
+﻿@model PagedList.IPagedList<engmercedes.UI.Models.UrunModel>
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Urun Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!--== Start Page Header Area ==-->
+<div class="page-header-wrap bg-img" data-bg="/Content/assets/img/bg/page-header-bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="page-header-content">
+                    <div class="page-header-content-inner">
+                        <h1>@ViewBag.Title</h1>
+
+                        <ul class="breadcrumb">
+                            <li><a href="/">Anasayfa</a></li>
+                            <li class="current"><a href="#">@ViewBag.Title</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--== End Page Header Area ==-->
+<!--== Start Page Content Wrapper ==-->
+<div class="page-content-wrapper sp-y">
+    <div class="container container-wide">
+        <div class="row">
+            <div class="col-lg-3 order-1 order-lg-0">
+                <div class="sidebar-area">
+
+
+                    @Html.Action("PartialKategori", "Category")
+
+
+                </div>
+            </div>
+
+            <div class="col-lg-9 order-0 order-lg-1">
+                <div class="action-bar-inner mb-30">
+                    <div class="row align-items-center">
+                        <div class="col-sm-7">
+                            <div class="shop-layout-switcher mb-15 mb-sm-0">
+                                <ul class="layout-switcher nav">
+                                    <li data-layout="grid" class="active"><i class="fa fa-th"></i></li>
+                                    <li data-layout="list"><i class="fa fa-th-list"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="sidebar-search">
+
+                                @using (Html.BeginForm("ProductListProductCode", "Product", FormMethod.Post))
+                                {
+                                <input type="text" placeholder="Urun Kodu veya Oem Kodu Giriniz " name="searchString">
+                                <button class="btn-src" type="submit"><i class="fa fa-search"></i></button>
+
+                                }
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="product-wrapper product-layout layout-grid">
+                    <div class="row mtn-30">
+                        <!-- Start Product Item -->
+                        @foreach (var item in Model)
+                        {
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="product-item">
+                                    <div class="product-item__thumb">
+                                        <a href="/urun/@item.URUNAD/@item.ID">
+                                            <img class="thumb-primary" src="data:image;base64,@Convert.ToBase64String(item.URUNRESIM)" alt="Product" />
+
+                                        </a>
+
+                                        <div class="ratting">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="product-item__content">
+                                        <div class="product-item__info">
+                                            <h4 class="title"><a href="/urun/@item.URUNAD/@item.ID">@item.URUNAD</a></h4>
+                                            <span class="price"><strong>Fiyat:</strong> @item.URUNFIYAT ₺</span>
+                                        </div>
+
+
+
+                                        <div class="product-item__desc">
+                                            <p>
+                                                <strong>OEM KODU: </strong>@item.URUNOEMKODU
+                                            </p>
+                                            <p>
+                                                <strong>URUN KODU: </strong>@item.URUNKODU
+                                            </p>
+                                            <p>
+                                                <strong>MARKA ADI: </strong>@item.MARKAADI
+                                            </p>
+                                            <p>
+                                                <strong>STOK DURUMU:</strong>
+                                                @if (item.ISAPPROVED == true)
+                                                {
+                                                    <span class="badge badge-success">Stokta</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge badge-danger">Mevcut Değil</span>
+                                                }
+                                            </p>
+                                            <p>
+                                                <strong>ACIKLAMA:</strong>
+                                                @item.URUNACIKLAMA
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            }
+
+                    </div>
+
+                    <div class="action-bar-inner mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6">
+                                <nav class="pagination-wrap mb-10 mb-sm-0">
+                                    <ul class="pagination">
+
+                                        @Html.PagedListPager(Model, page => Url.Action("ProductList", new { page, pageSize = Model.PageSize }))
+
+                                    </ul>
+                                </nav>
+                            </div>
+
+                            Toplam @Model.TotalItemCount kayıt bulundu. Bu sayfada @Model.FirstItemOnPage ile @Model.LastItemOnPage arası kayıtlar gösteriliyor.
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--== End Page Content Wrapper ==-->

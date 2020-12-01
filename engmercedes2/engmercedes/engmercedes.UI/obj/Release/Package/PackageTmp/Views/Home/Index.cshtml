@@ -1,0 +1,107 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--== Start Slider Area Wrapper ==-->
+@Html.Action("PartialSlider")
+<!--== End Slider Area Wrapper ==-->
+<!--== Start Banner Area Wrapper ==-->
+@Html.Action("PartialPromo","Home")
+<!--== End Banner Area Wrapper ==-->
+<!--== Start Call to Action Area ==-->
+<div class="call-to-action-area sm-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-lg-4">
+                <div class="call-to-action-item mt-0">
+                    <div class="call-to-action-item__icon">
+                        <img src="/Content/assets/img/icons/icon-1.png" alt="fast delivery">
+                    </div>
+                    <div class="call-to-action-item__info">
+                        <h3>
+                            Ücretsiz eve teslim</h3>
+                        <p>
+                            ₺100 lira üzerindeki tüm ürünler için geçerlidir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4">
+                <div class="call-to-action-item">
+                    <div class="call-to-action-item__icon">
+                        <img src="/Content/assets/img/icons/icon-2.png" alt="quality">
+                    </div>
+                    <div class="call-to-action-item__info">
+                        <h3>Kaliteli Ürünler</h3>
+                        <p>
+                            
+                            Ürün kalitemizi her zaman sağlıyoruz
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4">
+                <div class="call-to-action-item">
+                    <div class="call-to-action-item__icon">
+                        <img src="/Content/assets/img/icons/icon-3.png" alt="return">
+                    </div>
+                    <div class="call-to-action-item__info">
+                        <h3>Destek</h3>
+                        <p>
+                            
+                            Müşterimizi memnun etmek için çevrimiçi destek vermeye çalışıyoruz
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--== End Call to Action Area ==-->
+<!--== Start Best Seller Products Area ==-->
+<div class="best-seller-products-area sm-top">
+    <div class="container container-wide">
+        <div class="row">
+            <div class="col-lg-5 m-auto text-center">
+                <div class="section-title">
+                    <h2 class="h3">GÖZ ATIN</h2>
+                     
+                </div>
+            </div>
+        </div>
+
+        @Html.Action("PartialTop5Product","Home")
+    </div>
+</div>
+<!--== End Best Seller Products Area ==-->
+ 
+<!--== End Call to action Wrapper ==-->
+<!--== Start Promotion Code Banner Area ==-->
+<div class="promotion-code-area-wrapper sm-top">
+    <div class="container container-wide">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="promotion-code-banner-item mb-sm-30">
+                    <img src="/Content/assets/img/1.jpg" alt="Banner" />
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="promotion-code-banner-item">
+                    <img src="/Content/assets/img/2.jpg" alt="Banner" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--== End Promotion Code Banner Area ==-->
+ 
+<!--== End Newsletter Area ==-->
+<!--== Start Brand Logo Area Wrapper ==-->
+<div class="brand-logo-area sm-top sm-bottom">
+ 
+</div>

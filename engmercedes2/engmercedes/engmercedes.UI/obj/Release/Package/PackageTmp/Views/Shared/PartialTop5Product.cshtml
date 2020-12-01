@@ -1,0 +1,39 @@
+﻿@model IEnumerable<engmercedes.UI.Models.UrunModel>
+<div class="row">
+    <div class="col-12">
+        <div class="product-wrapper">
+            <div class="product-carousel">
+                @foreach (var item in Model)
+                {
+                    <div class="product-item">
+                        <div class="product-item__thumb">
+                            <a href="/urun/@item.URUNAD/@item.ID">
+                                <img class="thumb-primary" src="data:image;base64,@Convert.ToBase64String(item.URUNRESIM)" alt="Product"/>
+                                <img class="thumb-secondary" src="data:image;base64,@Convert.ToBase64String(item.URUNRESIM)" alt="Product"/>
+                            </a>
+                        </div>
+
+                        <div class="product-item__content">
+                            <div class="ratting">
+                                <span><i class="ion-android-star"></i></span>
+                                <span><i class="ion-android-star"></i></span>
+                                <span><i class="ion-android-star"></i></span>
+                                <span><i class="ion-android-star"></i></span>
+                                <span><i class="ion-android-star"></i></span>
+                            </div>
+                            <h4 class="title"><a href="/urun/@item.URUNAD/@item.ID">@item.URUNAD</a></h4>
+                            <span class="price"><strong>Fiyat:</strong> ₺@item.URUNFIYAT</span>
+                        </div>
+
+                        <div class="product-item__action">
+                            
+                        </div>
+
+                         
+                    </div>
+                }
+              
+
+            </div>
+    </div>
+</div>

@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewBag.Title = "Reklam Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (ViewBag.Hata!=null)
+{
+    <div id="alertArrowed" class="col-lg-12 layout-spacing">
+        <div class="statbox widget box box-shadow">
+            <div class="widget-header">
+                <div class="row">
+                    <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                        <h4>Hata Oluştu!</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="widget-content widget-content-area">
+
+          
+                <div class="alert custom-alert-1 mb-4" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" data-dismiss="alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x close"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+                    <div class="media">
+                        <div class="alert-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12" y2="17"></line></svg>
+                        </div>
+                        <div class="media-body">
+                            <div class="alert-text">
+                                <strong>Hata! </strong><span> @ViewBag.Hata</span> 
+                            </div>
+                            <div class="alert-btn">
+                                <button type="button" onclick="Back()" class="btn btn-default btn-dismiss">Geri Dön</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+          
+
+            </div>
+        </div>
+    </div>
+}
+else
+{
+<div class="col-lg-12 col-12 layout-spacing">
+    <div class="statbox widget box box-shadow">
+        <div class="widget-header">
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                    <h4>Reklam Ekle</h4>
+                </div>
+            </div>
+        </div>
+        <div class="widget-content widget-content-area">
+            <form action="" method="post" enctype="multipart/form-data">
+                <div class="row col-12">
+                    <div class="form-group mb-4 mt-3 col-4">
+                        <div class="custom-file-container" data-upload-id="myFirstImage">
+                            <label>Reklam Resim1 (Tek Dosya) <a href="javascript:void(0)" class="custom-file-container__image-clear" title="Resmi Kaldır">x</a></label>
+                            <label class="custom-file-container__custom-file">
+                                <input type="file" name="RESIMDOSYASI1" class="custom-file-container__custom-file__custom-file-input" accept="image/*">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
+                                <span class="custom-file-container__custom-file__custom-file-control"></span>
+                            </label>
+                            <div class="custom-file-container__image-preview"></div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-4 mt-3 col-4">
+                        <div class="custom-file-container" data-upload-id="myFirstImage2">
+                            <label>Reklam Resim2 (Tek Dosya) <a href="javascript:void(0)" class="custom-file-container__image-clear" title="Resmi Kaldır">x</a></label>
+                            <label class="custom-file-container__custom-file">
+                                <input type="file" name="RESIMDOSYASI2" class="custom-file-container__custom-file__custom-file-input" accept="image/*">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
+                                <span class="custom-file-container__custom-file__custom-file-control"></span>
+                            </label>
+                            <div class="custom-file-container__image-preview"></div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-4 mt-3 col-4">
+                        <div class="custom-file-container" data-upload-id="myFirstImage3">
+                            <label>Reklam Resim3 (Tek Dosya) <a href="javascript:void(0)" class="custom-file-container__image-clear" title="Resmi Kaldır">x</a></label>
+                            <label class="custom-file-container__custom-file">
+                                <input type="file" name="RESIMDOSYASI3" class="custom-file-container__custom-file__custom-file-input" accept="image/*">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
+                                <span class="custom-file-container__custom-file__custom-file-control"></span>
+                            </label>
+                            <div class="custom-file-container__image-preview"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <input type="submit" name="time" class="mt-4 mb-4 btn btn-primary">
+            </form>
+        </div>
+    </div>
+
+</div>
+}
+
+@section scripts{
+    <script src="/Content/assets/js/scrollspyNav.js"></script>
+    <script src="/Content/plugins/file-upload/file-upload-with-preview.min.js"></script>
+    <script>
+        var firstUpload = new FileUploadWithPreview('myFirstImage')
+        var firstUpload = new FileUploadWithPreview('myFirstImage2')
+        var firstUpload = new FileUploadWithPreview('myFirstImage3')
+    </script>
+     <script>
+        function Back() {
+            setTimeout(function() {
+                    window.location.assign("/reklam/reklam-liste");
+                    //3 saniye sonra yönlenecek
+                },
+                200);
+        }
+    </script>
+
+}

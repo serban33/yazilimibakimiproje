@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ENGMERCEDESModelStoreContainer" CdmEntityContainer="ENGMERCEDESEntities">
+    <EntitySetMapping Name="AltKategori">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.AltKategori">
+        <MappingFragment StoreEntitySet="AltKategori">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KATEGORIID" ColumnName="KATEGORIID" />
+          <ScalarProperty Name="ALTKATEGORIADI" ColumnName="ALTKATEGORIADI" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ayarlar">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.Ayarlar">
+        <MappingFragment StoreEntitySet="Ayarlar">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SITEBASLIK" ColumnName="SITEBASLIK" />
+          <ScalarProperty Name="SITELOGO" ColumnName="SITELOGO" />
+          <ScalarProperty Name="SITEACIKLAMA" ColumnName="SITEACIKLAMA" />
+          <ScalarProperty Name="SITEMAIL" ColumnName="SITEMAIL" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+          <ScalarProperty Name="SITELOGOYOL" ColumnName="SITELOGOYOL" />
+          <ScalarProperty Name="SITETELEFON" ColumnName="SITETELEFON" />
+          <ScalarProperty Name="SITETELEFON2" ColumnName="SITETELEFON2" />
+          <ScalarProperty Name="SITEADRES" ColumnName="SITEADRES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kategori">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.Kategori">
+        <MappingFragment StoreEntitySet="Kategori">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KATEGORIADI" ColumnName="KATEGORIADI" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kullanici">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.Kullanici">
+        <MappingFragment StoreEntitySet="Kullanici">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KULLANICIADI" ColumnName="KULLANICIADI" />
+          <ScalarProperty Name="KULLANICISIFRE" ColumnName="KULLANICISIFRE" />
+          <ScalarProperty Name="KULLANICIRESIM" ColumnName="KULLANICIRESIM" />
+          <ScalarProperty Name="LOGINDATE" ColumnName="LOGINDATE" />
+          <ScalarProperty Name="KULLANICITELEFON" ColumnName="KULLANICITELEFON" />
+          <ScalarProperty Name="LOGOUTDATE" ColumnName="LOGOUTDATE" />
+          <ScalarProperty Name="KULLANICIMAİL" ColumnName="KULLANICIMAİL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marka">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.Marka">
+        <MappingFragment StoreEntitySet="Marka">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MARKAADI" ColumnName="MARKAADI" />
+          <ScalarProperty Name="MARKARESIM" ColumnName="MARKARESIM" />
+          <ScalarProperty Name="MARKARESIMYOL" ColumnName="MARKARESIMYOL" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Slider">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.Slider">
+        <MappingFragment StoreEntitySet="Slider">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SLIDERAD" ColumnName="SLIDERAD" />
+          <ScalarProperty Name="SLIDERYOL" ColumnName="SLIDERYOL" />
+          <ScalarProperty Name="SLIDERIMAGE" ColumnName="SLIDERIMAGE" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+          <ScalarProperty Name="ISAPPROVED" ColumnName="ISAPPROVED" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SosyalMedya">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.SosyalMedya">
+        <MappingFragment StoreEntitySet="SosyalMedya">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FACEBOOK" ColumnName="FACEBOOK" />
+          <ScalarProperty Name="INSTAGRAM" ColumnName="INSTAGRAM" />
+          <ScalarProperty Name="TWITTER" ColumnName="TWITTER" />
+          <ScalarProperty Name="LINKEDIN" ColumnName="LINKEDIN" />
+          <ScalarProperty Name="YOUTUBE" ColumnName="YOUTUBE" />
+          <ScalarProperty Name="WHATSAPP" ColumnName="WHATSAPP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Urun">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.Urun">
+        <MappingFragment StoreEntitySet="Urun">
+          <ScalarProperty Name="URUNKODU" ColumnName="URUNKODU" />
+          <ScalarProperty Name="URUNOEMKOD" ColumnName="URUNOEMKOD" />
+          <ScalarProperty Name="URUNILKRESIMYOL" ColumnName="URUNILKRESIMYOL" />
+          <ScalarProperty Name="URUNILKRESIM" ColumnName="URUNILKRESIM" />
+          <ScalarProperty Name="MARKAADI" ColumnName="MARKAADI" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="URUNAD" ColumnName="URUNAD" />
+          <ScalarProperty Name="URUNACIKLAMA" ColumnName="URUNACIKLAMA" />
+          <ScalarProperty Name="URUNMARKA" ColumnName="URUNMARKA" />
+          <ScalarProperty Name="URUNFIYAT" ColumnName="URUNFIYAT" />
+          <ScalarProperty Name="KATEGORIID" ColumnName="KATEGORIID" />
+          <ScalarProperty Name="ALTKATEGORIID" ColumnName="ALTKATEGORIID" />
+          <ScalarProperty Name="ISAPPROVED" ColumnName="ISAPPROVED" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UrunResim">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.UrunResim">
+        <MappingFragment StoreEntitySet="UrunResim">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RESIMAD" ColumnName="RESIMAD" />
+          <ScalarProperty Name="RESIM" ColumnName="RESIM" />
+          <ScalarProperty Name="RESIMYOL" ColumnName="RESIMYOL" />
+          <ScalarProperty Name="URUNID" ColumnName="URUNID" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_AltKatAndKat">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.vw_AltKatAndKat">
+        <MappingFragment StoreEntitySet="vw_AltKatAndKat">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ALTKATEGORIADI" ColumnName="ALTKATEGORIADI" />
+          <ScalarProperty Name="KATEGORIADI" ColumnName="KATEGORIADI" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_UrunModel">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.vw_UrunModel">
+        <MappingFragment StoreEntitySet="vw_UrunModel">
+          <ScalarProperty Name="URUNFIYAT" ColumnName="URUNFIYAT" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KATEGORIID" ColumnName="KATEGORIID" />
+          <ScalarProperty Name="ALTKATEGORIID" ColumnName="ALTKATEGORIID" />
+          <ScalarProperty Name="URUNMARKA" ColumnName="URUNMARKA" />
+          <ScalarProperty Name="URUNACIKLAMA" ColumnName="URUNACIKLAMA" />
+          <ScalarProperty Name="URUNAD" ColumnName="URUNAD" />
+          <ScalarProperty Name="ISAPPROVED" ColumnName="ISAPPROVED" />
+          <ScalarProperty Name="KATEGORIADI" ColumnName="KATEGORIADI" />
+          <ScalarProperty Name="ALTKATEGORIADI" ColumnName="ALTKATEGORIADI" />
+          <ScalarProperty Name="MARKAADI" ColumnName="MARKAADI" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="LogInDate" FunctionName="ENGMERCEDESModel.Store.LogInDate" />
+    <FunctionImportMapping FunctionImportName="LogOutDate" FunctionName="ENGMERCEDESModel.Store.LogOutDate" />
+    <EntitySetMapping Name="vw_UrunDetay">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.vw_UrunDetay">
+        <MappingFragment StoreEntitySet="vw_UrunDetay">
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="URUNILKRESIMYOL" ColumnName="URUNILKRESIMYOL" />
+          <ScalarProperty Name="URUNILKRESIM" ColumnName="URUNILKRESIM" />
+          <ScalarProperty Name="ISAPPROVED" ColumnName="ISAPPROVED" />
+          <ScalarProperty Name="MARKAADI" ColumnName="MARKAADI" />
+          <ScalarProperty Name="ALTKATEGORIADI" ColumnName="ALTKATEGORIADI" />
+          <ScalarProperty Name="KATEGORIADI" ColumnName="KATEGORIADI" />
+          <ScalarProperty Name="URUNFIYAT" ColumnName="URUNFIYAT" />
+          <ScalarProperty Name="URUNACIKLAMA" ColumnName="URUNACIKLAMA" />
+          <ScalarProperty Name="URUNAD" ColumnName="URUNAD" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AltReklam">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.AltReklam">
+        <MappingFragment StoreEntitySet="AltReklam">
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="C_REKLAMRESIM2" ColumnName="[REKLAMRESIM2" />
+          <ScalarProperty Name="REKLAMRESIM1" ColumnName="REKLAMRESIM1" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reklam">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.Reklam">
+        <MappingFragment StoreEntitySet="Reklam">
+          <ScalarProperty Name="REKLAMRESIM3" ColumnName="REKLAMRESIM3" />
+          <ScalarProperty Name="REKLAMRESIM2" ColumnName="REKLAMRESIM2" />
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="REKLAMRESIMYOL" ColumnName="REKLAMRESIMYOL" />
+          <ScalarProperty Name="REKLAMRESIM1" ColumnName="REKLAMRESIM1" />
+          <ScalarProperty Name="REKLAMADI" ColumnName="REKLAMADI" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sirket">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.Sirket">
+        <MappingFragment StoreEntitySet="Sirket">
+          <ScalarProperty Name="RESIM3" ColumnName="RESIM3" />
+          <ScalarProperty Name="RESIM2" ColumnName="RESIM2" />
+          <ScalarProperty Name="RESIM1" ColumnName="RESIM1" />
+          <ScalarProperty Name="VIZYONUMUZ" ColumnName="VIZYONUMUZ" />
+          <ScalarProperty Name="MISYONUMUZ" ColumnName="MISYONUMUZ" />
+          <ScalarProperty Name="HAKKIMIZDA" ColumnName="HAKKIMIZDA" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_UrunList">
+      <EntityTypeMapping TypeName="ENGMERCEDESModel.vw_UrunList">
+        <MappingFragment StoreEntitySet="vw_UrunList">
+          <ScalarProperty Name="URUNKODU" ColumnName="URUNKODU" />
+          <ScalarProperty Name="URUNOEMKOD" ColumnName="URUNOEMKOD" />
+          <ScalarProperty Name="URUNILKRESIMYOL" ColumnName="URUNILKRESIMYOL" />
+          <ScalarProperty Name="URUNILKRESIM" ColumnName="URUNILKRESIM" />
+          <ScalarProperty Name="URUNFIYAT" ColumnName="URUNFIYAT" />
+          <ScalarProperty Name="URUNAD" ColumnName="URUNAD" />
+          <ScalarProperty Name="URUNACIKLAMA" ColumnName="URUNACIKLAMA" />
+          <ScalarProperty Name="UPDATEDDATE" ColumnName="UPDATEDDATE" />
+          <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+          <ScalarProperty Name="KATEGORIID" ColumnName="KATEGORIID" />
+          <ScalarProperty Name="KATEGORIADI" ColumnName="KATEGORIADI" />
+          <ScalarProperty Name="ALTKATEGORIID" ColumnName="ALTKATEGORIID" />
+          <ScalarProperty Name="ISAPPROVED" ColumnName="ISAPPROVED" />
+          <ScalarProperty Name="MARKAADI" ColumnName="MARKAADI" />
+          <ScalarProperty Name="URUNMARKA" ColumnName="URUNMARKA" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

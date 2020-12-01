@@ -1,0 +1,288 @@
+﻿@model engmercedes.UI.Models.SirketModel
+@{
+    ViewBag.Title = "Hakkımızda";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (Model != null)
+{
+    <div class="page-header-wrap bg-img" data-bg="/Content/assets/img/bg/page-header-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="page-header-content">
+                        <div class="page-header-content-inner">
+                            <h1>@ViewBag.Title</h1>
+
+                            <ul class="breadcrumb">
+                                <li><a href="/">Anasayfa</a></li>
+                                <li class="current"><a href="#">@ViewBag.Title</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Page Header Area ==-->
+    <!--== Start Page Content Wrapper ==-->
+    <div class="page-content-wrapper sm-top">
+        <div class="about-page-content">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-1 order-md-0">
+                        <div class="about-content">
+                            <h2 class="h3 mb-sm-20">ENG MERCEDES HAKKINDA</h2>
+                            <p>
+                                @Model.HAKKIMIZDA
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 order-0">
+                        <div class="about-thumb mb-sm-30">
+                            <img src="data:image;base64,@Convert.ToBase64String(Model.RESIM1)" alt="Hakkımızda" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center sm-top">
+                    <div class="col-lg-6">
+                        <div class="about-thumb video-play mb-sm-30">
+                            <img src="data:image;base64,@Convert.ToBase64String(Model.RESIM2)" alt="Misyon" />
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <h2 class="h3">Misyonumuz</h2>
+                            <p>
+                                @Model.MISYONUMUZ
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center sm-top">
+                    <div class="col-lg-6 order-1 order-md-0">
+                        <div class="about-content">
+                            <h2 class="h3 mb-sm-20">Vizyonumuz</h2>
+                            <p>
+                                @Model.VIZYONUMUZ
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 order-0">
+                        <div class="about-thumb mb-sm-30">
+                            <img src="data:image;base64,@Convert.ToBase64String(Model.RESIM3)" alt="Vizyon" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--== End Page Content Wrapper ==-->
+    <!--== Start Call to action Wrapper ==-->
+    <div class="call-to-action-area sm-top">
+        <div class="call-to-action-content-area home-2 bg-img" data-bg="/Content/assets/img/bg/bg-1.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="call-to-action-txt">
+                            <h2>
+                                İHTİYACINIZ OLAN TÜM ÜRÜNLERİ<br /> BURADA BULABİLİRSİNİZ
+                            </h2>
+                            <a href="/urunler" class="btn btn-brand">GÖZAT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="call-to-action-image-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="/Content/assets/img/bg/bg-car.png" alt="Car" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="need-help-area bg-img sm-top" data-bg="/Content/assets/img/bg/bg-2.jpg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-7 text-center text-sm-left">
+                    <div class="need-help-content mb-sm-20">
+                        <h3>Yardımamı İhtiyacınız Var ?</h3>
+                        <p>Destek için 7/24 buradan 01234-567-890 ulaşabilirsiniz</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-5 text-center text-sm-right">
+                    <a href="/Iletisim" class="btn btn-black">İletişim</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{<div class="page-header-wrap bg-img" data-bg="/Content/assets/img/bg/page-header-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="page-header-content">
+                        <div class="page-header-content-inner">
+                            <h1>@ViewBag.Title</h1>
+
+                            <ul class="breadcrumb">
+                                <li><a href="/">Anasayfa</a></li>
+                                <li class="current"><a href="#">@ViewBag.Title</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Page Header Area ==-->
+    <!--== Start Page Content Wrapper ==-->
+    <div class="page-content-wrapper sm-top">
+        <div class="about-page-content">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-1 order-md-0">
+                        <div class="about-content">
+                            <h2 class="h3 mb-sm-20">ENG MERCEDES HAKKINDA</h2>
+                            <p>
+                                This is a list of automotive parts mostly for vehicles using internal combustion engines
+                                which are manufactured components of automobiles.
+                            </p>
+                            <p>
+                                This category is for components and parts that make up automobile (car) bodies including
+                                accessories.
+                            </p>
+                            <p>
+                                On motorbikes their main function is to shield the rider from wind, though not as completely
+                                as in a car, whereas on sports and racing motorcycles the main function is reducing drag
+                                when the rider
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 order-0">
+                        <div class="about-thumb mb-sm-30">
+                            <img src="/Content/assets/img/banner/a-1.jpg" alt="About" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center sm-top">
+                    <div class="col-lg-6">
+                        <div class="about-thumb video-play mb-sm-30">
+                            <img src="/Content/assets/img/banner/a-2.jpg" alt="About" />
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <h2 class="h3">Misyonumuz</h2>
+                            <p>
+                                This is a list of automotive parts mostly for vehicles using internal combustion engines
+                                which are manufactured components of automobiles.
+                            </p>
+                            <p>
+                                This category is for components and parts that make up automobile (car) bodies including
+                                accessories.
+                            </p>
+                            <p>
+                                On motorbikes their main function is to shield the rider from wind, though not as completely
+                                as in a car, whereas on sports and racing motorcycles the main function is reducing drag
+                                when the rider
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center sm-top">
+                    <div class="col-lg-6 order-1 order-md-0">
+                        <div class="about-content">
+                            <h2 class="h3 mb-sm-20">Vizyonumuz</h2>
+                            <p>
+                                This is a list of automotive parts mostly for vehicles using internal combustion engines
+                                which are manufactured components of automobiles.
+                            </p>
+                            <p>
+                                This category is for components and parts that make up automobile (car) bodies including
+                                accessories.
+                            </p>
+                            <p>
+                                On motorbikes their main function is to shield the rider from wind, though not as completely
+                                as in a car, whereas on sports and racing motorcycles the main function is reducing drag
+                                when the rider
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 order-0">
+                        <div class="about-thumb mb-sm-30">
+                            <img src="/Content/assets/img/banner/a-1.jpg" alt="About" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--== End Page Content Wrapper ==-->
+    <!--== Start Call to action Wrapper ==-->
+    <div class="call-to-action-area sm-top">
+        <div class="call-to-action-content-area home-2 bg-img" data-bg="/Content/assets/img/bg/bg-1.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="call-to-action-txt">
+                            <h2>
+                                İHTİYACINIZ OLAN TÜM ÜRÜNLERİ<br /> BURADA BULABİLİRSİNİZ
+                            </h2>
+                            <a href="/urunler" class="btn btn-brand">GÖZAT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="call-to-action-image-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="/Content/assets/img/bg/bg-car.png" alt="Car" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="need-help-area bg-img sm-top" data-bg="/Content/assets/img/bg/bg-2.jpg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-7 text-center text-sm-left">
+                    <div class="need-help-content mb-sm-20">
+                        <h3>Yardımamı İhtiyacınız Var ?</h3>
+                        <p>Destek için 7/24 buradan 01234-567-890 ulaşabilirsiniz</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-5 text-center text-sm-right">
+                    <a href="/Iletisim" class="btn btn-black">İletişim</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}

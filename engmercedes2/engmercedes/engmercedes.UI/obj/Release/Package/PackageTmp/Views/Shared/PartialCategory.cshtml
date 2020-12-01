@@ -1,0 +1,14 @@
+﻿@model List<engmercedes.UI.Models.KategoriModel>
+<div class="sidebar-item">
+    <h4 class="sidebar-title">Kategoriler</h4>
+    <div class="sidebar-body">
+        <ul class="sidebar-list">
+            <li><a href="/Urunler">Tüm Urunler</a></li>
+            @foreach (var item in Model)
+            {
+                <li><a href="/Urunler/@item.ID">@item.KATEGORIADI</a></li>
+            }
+
+        </ul>
+    </div>
+</div>

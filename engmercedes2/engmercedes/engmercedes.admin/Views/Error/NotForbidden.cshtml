@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "NotForbidden";
+    Layout = "~/Views/Shared/_ErrorLayout.cshtml";
+}
+
+<div class="container-fluid error-content">
+    <div class="">
+        <h1 class="error-number">@ViewBag.ErrorCode</h1>
+        <p class="mini-text">Ooops!</p>
+        <p class="error-text mb-4 mt-1">@ViewBag.ErrorMessage!</p>
+        <a href="/Home/Index" class="btn btn-primary mt-5">Geri Dön</a>
+    </div>
+</div>

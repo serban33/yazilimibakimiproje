@@ -1,0 +1,18 @@
+﻿@model IEnumerable<engmercedes.admin.Models.UrunResimModel>
+<div class="widget-content widget-content-area">
+
+    <div id="demo-test-gallery" class="demo-gallery" data-pswp-uid="1">
+        @foreach (var item in Model)
+        {
+            <a class="img-1"   data-size="1600x1068" data-med="data:image;base64,@Convert.ToBase64String(item.RESIM)" data-med-size="1024x683" >
+                <img src="data:image;base64,@Convert.ToBase64String(item.RESIM)" alt="image-gallery">
+            </a>
+
+
+        }
+                            
+                           
+
+    </div>
+                      
+</div>
